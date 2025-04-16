@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import DatePicker from '../components/DatePicker';
 import CopyButton from '../components/CopyButton';
+import readings from '../data/daily_stoic_readings.json';
+import { Readings } from '../interfaces/Reading'
 
 const getPacificDate = (): string => {
   const now = new Date();
@@ -22,20 +24,21 @@ const DailyReading: React.FC = () => {
     fetchReading(date); // Fetch reading whenever the date changes
   }, [date]);
 
-  const fetchReading = async (selectedDate: string) => {
-    try {
-      console.log(`Making request to: http://localhost:3000/api/reading?date=${selectedDate}`)
-      const response = await fetch(`http://localhost:3000/api/reading?date=${selectedDate}`);
-      if (!response.ok) {
-        throw new Error(`Error: ${response.statusText}`);
-      }
-      const data = await response.json();
-      setReading(data);
-      setError(null);
-    } catch (err: any) {
-      setError(err.message);
-      setReading(null);
+  const fetchReading = (date: string) => {
+    const match = date.match(/^\d{4}-(\d{2}-\d{2})$/);
+    if (!match) {
+      throw new Error('Invalid date format. Use YYYY-MM-DD.');
     }
+
+    const readingsTyped: Readings = readings;
+
+    const mmdd = match[1];
+    const reading = readingsTyped[mmdd];
+    if (!reading) {
+      throw new Error('Reading not found for the given date.');
+    }
+  
+    return reading;
   };
 
   return (
