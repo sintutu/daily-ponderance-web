@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import DatePicker from '../components/DatePicker';
 import CopyButton from '../components/CopyButton';
+import readings from '../data/daily_stoic_readings.json';
+import { Readings } from '../interfaces/Reading'
 
 const getPacificDate = (): string => {
   const now = new Date();
@@ -19,24 +21,28 @@ const DailyReading: React.FC = () => {
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
-    fetchReading(date); // Fetch reading whenever the date changes
-  }, [date]);
-
-  const fetchReading = async (selectedDate: string) => {
     try {
-      console.log(`Making request to: http://localhost:3000/api/reading?date=${selectedDate}`)
-      const response = await fetch(`http://localhost:3000/api/reading?date=${selectedDate}`);
-      if (!response.ok) {
-        throw new Error(`Error: ${response.statusText}`);
+      const match = date.match(/^\d{4}-(\d{2}-\d{2})$/);
+      if (!match) {
+        throw new Error('Invalid date format. Use YYYY-MM-DD.');
       }
-      const data = await response.json();
-      setReading(data);
-      setError(null);
+
+      const readingsTyped: Readings = readings;
+      const mmdd = match[1];
+      const reading = readingsTyped[mmdd];
+
+      if (!reading) {
+        setError('Reading not found for the given date.');
+        setReading(null);
+      } else {
+        setReading(reading);
+        setError(null);
+      }
     } catch (err: any) {
       setError(err.message);
       setReading(null);
     }
-  };
+  }, [date]);
 
   return (
     <div style={{ fontFamily: 'Arial, sans-serif', maxWidth: '600px', margin: 'auto', padding: '1rem' }}>
@@ -54,9 +60,9 @@ const DailyReading: React.FC = () => {
           <h2>{reading.theme}</h2>
           <h3>{reading.title}</h3>
           <blockquote>
-            <p>{reading.quote}</p>
+            <p>"{reading.quote}"</p>
           </blockquote>
-          <footer>- {reading.author} - {reading.citation}</footer>
+          <footer>- {reading.author}, <em>{reading.citation}</em></footer>
           {/* Add the CopyButton here */}
           <CopyButton
             date={date}
