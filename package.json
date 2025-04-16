@@ -3,8 +3,8 @@
     "version": "1.0.0",
     "private": true,
     "scripts": {
-        "start:web": "npm --prefix src/web run dev",
-        "build:web": "npm --prefix src/web build",
+        "start:web": "cd src/web && npm run dev",
+        "build:web": "cd src/web && npm run build",
         "start": "npm run start:web",
         "build": "npm run build:web"
     }
