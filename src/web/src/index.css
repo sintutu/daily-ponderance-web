@@ -1,0 +1,151 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Light Mode */
+:root.light-mode {
+  --background-color: #ffffff;
+  --text-color: #000000;
+}
+
+/* Dark Mode */
+:root.dark-mode {
+  --background-color: #242424;
+  --text-color: #ffffff;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+body.light-mode {
+  background-color: #ffffff; /* Light background */
+  color: #000000; /* Light text */
+}
+
+body.dark-mode {
+  background-color: #242424; /* Dark background */
+  color: #ffffff; /* Dark text */
+}
+
+/* Light Mode */
+body.light-mode #datepicker {
+  background-color: #ffffff; /* White background */
+  color: #000000; /* Black text */
+  border: 1px solid #ccc; /* Light border */
+  padding: 0.5rem; /* Space inside the input box */
+  font-size: 1rem; /* Font size for text */
+}
+
+body.light-mode #datepicker::-webkit-calendar-picker-indicator {
+  filter: invert(100%); /* Keeps the calendar icon dark */
+}
+
+/* Dark Mode */
+body.dark-mode #datepicker {
+  background-color: #242424; /* Dark background */
+  color: #ffffff; /* White text */
+  border: 1px solid #666; /* Dark border */
+  padding: 0.5rem; /* Keep consistent padding */
+  font-size: 1rem; /* Keep consistent font size */
+}
+
+body.dark-mode #datepicker::-webkit-calendar-picker-indicator {
+  filter: invert(0%); /* Keeps the calendar icon light */
+}
+
+/* Light Mode Buttons */
+body.light-mode button {
+  background-color: #f0f0f0; /* Light grey background */
+  color: #333; /* Dark grey text */
+  border: 1px solid #ccc; /* Subtle border */
+  padding: 0.6rem 1.2rem; /* Add padding for better appearance */
+  border-radius: 8px; /* Rounded corners */
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.light-mode button:hover {
+  background-color: #e0e0e0; /* Slightly darker grey on hover */
+}
+
+/* Dark Mode Buttons */
+body.dark-mode button {
+  background-color: #444; /* Dark grey background */
+  color: #ddd; /* Light grey text */
+  border: 1px solid #666; /* Subtle border */
+  padding: 0.6rem 1.2rem; /* Add padding for better appearance */
+  border-radius: 8px; /* Rounded corners */
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.dark-mode button:hover {
+  background-color: #555; /* Slightly lighter grey on hover */
+}
+
+/* Add spacing for the Copy Button */
+button.copy-button {
+  margin-top: 1rem; /* Adds space between the button and content above */
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
