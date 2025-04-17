@@ -15,6 +15,24 @@ const getPacificDate = (): string => {
   return `${year}-${month}-${day}`; // YYYY-MM-DD
 };
 
+const formatDateWithSuffix = (date: string): string => {
+  const suffixes = ["th", "st", "nd", "rd"];
+  const [year, month, day] = date.split("-").map(Number);
+
+  const monthName = new Date(year, month - 1, day).toLocaleString("default", { month: "long" });
+  const daySuffix = day % 10 === 1 && day !== 11 ? suffixes[1]
+    : day % 10 === 2 && day !== 12 ? suffixes[2]
+    : day % 10 === 3 && day !== 13 ? suffixes[3]
+    : suffixes[0];
+
+  return `${monthName} ${day}${daySuffix}`;
+};
+
+const getMonthName = (date: string): string => {
+  const [year, month, day] = date.split("-").map(Number);
+  return new Date(year, month - 1, day).toLocaleString("default", { month: "long" });
+};
+
 const DailyReading: React.FC = () => {
   const [date, setDate] = useState<string>(getPacificDate()); // Today's date in US Pacific Time
   const [reading, setReading] = useState<any>(null);
@@ -46,10 +64,10 @@ const DailyReading: React.FC = () => {
 
   return (
     <div style={{ fontFamily: 'Arial, sans-serif', maxWidth: '600px', margin: 'auto', padding: '1rem' }}>
-      <h1>Daily Ponderance</h1>
 
       {/* DatePicker with default date */}
       <DatePicker defaultDate={date} onDateChange={setDate} />
+      <p>{getMonthName(date)}'s theme: {reading.theme}</p>
 
       {/* Error Message */}
       {error && <p style={{ color: 'red' }}>{error}</p>}
@@ -57,7 +75,7 @@ const DailyReading: React.FC = () => {
       {/* Reading Display */}
       {reading ? (
         <div style={{ marginTop: '1rem', border: '1px solid #ccc', padding: '1rem', borderRadius: '8px' }}>
-          <h2>{reading.theme}</h2>
+          <p>{formatDateWithSuffix(date)}</p>
           <h3>{reading.title}</h3>
           <blockquote>
             <p>"{reading.quote}"</p>
