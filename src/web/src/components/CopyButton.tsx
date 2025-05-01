@@ -13,12 +13,20 @@ const CopyButton: React.FC<{ date: string; title: string; quote: string; author:
   const formatDate = (dateString: string): string => {
     const dateObj = new Date(dateString);
     const options: Intl.DateTimeFormatOptions = { month: "long", day: "numeric" };
-    return dateObj.toLocaleDateString("en-US", options); // Formats as "April 16th"
+    const suffixes = ["th", "st", "nd", "rd"];
+    const day = dateObj.getDate();
+    const daySuffix = 
+        day % 10 === 1 && day !== 11 ? suffixes[1]
+      : day % 10 === 2 && day !== 12 ? suffixes[2]
+      : day % 10 === 3 && day !== 13 ? suffixes[3]
+      : suffixes[0];
+    const formattedDate = dateObj.toLocaleDateString("en-US", options);
+    return `${formattedDate}${daySuffix}`;
   };
 
   const handleCopy = () => {
     const formattedDate = formatDate(date);
-    const contentToCopy = `${formattedDate}\n\n${title}\n\n${quote}\n\n- ${author} - ${citation}`;
+    const contentToCopy = `${formattedDate}\n\n${title}\n\n\"${quote}\"\n\n- ${author} - ${citation}`;
 
     navigator.clipboard.writeText(contentToCopy).then(() => {
       setButtonText("Copied!");
