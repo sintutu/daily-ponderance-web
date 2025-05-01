@@ -67,7 +67,11 @@ const DailyReading: React.FC = () => {
 
       {/* DatePicker with default date */}
       <DatePicker defaultDate={date} onDateChange={setDate} />
-      <p>{getMonthName(date)}'s theme: {reading.theme}</p>
+      {reading ? (
+          <p>{getMonthName(date)}'s theme: {reading.theme}</p>
+        ) : (
+          <p>No reading available for this date.</p>
+        )}
 
       {/* Error Message */}
       {error && <p style={{ color: 'red' }}>{error}</p>}
