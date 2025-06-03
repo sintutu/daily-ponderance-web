@@ -415,7 +415,7 @@
   "02-29": {
       "theme": "AWARENESS",
       "title": "YOU CAN'T ALWAYS (BE) GET(TING) WHAT YOU WANT",
-      "quote": "When children stick their hand down a narrow goody jar they can't get their full fist out and start crying. Drop a few treats and you will get it out! Curb your desire--don't set your heart on so many things and you will get what you need.\" AWARENESS",
+      "quote": "When children stick their hand down a narrow goody jar they can't get their full fist out and start crying. Drop a few treats and you will get it out! Curb your desire--don't set your heart on so many things and you will get what you need.",
       "author": "EPICTETUS",
       "citation": "DISCOURSES, 3.9.22"
   },
@@ -840,9 +840,9 @@
       "citation": "MEDITATIONS, 7.47"
   },
   "04-30": {
-      "theme": "RIGHT ACTION",
+      "theme": "UNBIASED THOUGHT",
       "title": "WHAT IS IN KEEPING WITH YOUR CHARACTER?",
-      "quote": "Just as what is considered rational or irrational differs for each person, in the same way what is good or evil and useful or useless differs for each person. This is why we need education, so that we might learn how to adjust our preconceived notions of the rational and irrational in harmony with nature. In sorting this out, we don't simply rely on our estimate of the value of external things, but also apply the rule of what is in keeping with one's character.\" RIGHT ACTION",
+      "quote": "Just as what is considered rational or irrational differs for each person, in the same way what is good or evil and useful or useless differs for each person. This is why we need education, so that we might learn how to adjust our preconceived notions of the rational and irrational in harmony with nature. In sorting this out, we don't simply rely on our estimate of the value of external things, but also apply the rule of what is in keeping with one's character.",
       "author": "EPICTETUS",
       "citation": "DISCOURSES, 1.2.5-7"
   },
@@ -1057,9 +1057,9 @@
       "citation": "DISCOURSES, 4.4.41; 43"
   },
   "05-31": {
-      "theme": "PROBLEM SOLVING",
+      "theme": "RIGHT ACTION",
       "title": "WE HAVE BUT ONE OBLIGATION",
-      "quote": "What is your vocation? To be a good person.\" PROBLEM SOLVING",
+      "quote": "What is your vocation? To be a good person.",
       "author": "MARCUS AURELIUS",
       "citation": "MEDITATIONS, 11.5"
   },
@@ -1260,16 +1260,16 @@
       "citation": "MORAL LETTERS, 5.5"
   },
   "06-29": {
-      "theme": "PROBLEM SOLVING",
+      "theme": "PROBEM SOLVING",
       "title": "NO EXCUSES",
       "quote": "It is possible to curb your arrogance, to overcome pleasure and pain, to rise above your ambition, and to not be angry with stupid and ungrateful people--yes, even to care for them.",
       "author": "MARCUS AURELIUS",
       "citation": "MEDITATIONS, 8.8"
   },
   "06-30": {
-      "theme": "DUTY",
+      "theme": "PROBEM SOLVING",
       "title": "THE OBSTACLE IS THE WAY",
-      "quote": "While it's true that someone can impede our actions, they can't impede our intentions and our attitudes, which have the power of being conditional and adaptable. For the mind adapts and converts any obstacle to its action into a means of achieving it. That which is an impediment to action is turned to advance action. The obstacle on the path becomes the way.\" DUTY",
+      "quote": "While it's true that someone can impede our actions, they can't impede our intentions and our attitudes, which have the power of being conditional and adaptable. For the mind adapts and converts any obstacle to its action into a means of achieving it. That which is an impediment to action is turned to advance action. The obstacle on the path becomes the way.",
       "author": "MARCUS AURELIUS",
       "citation": "MEDITATIONS, 5.20"
   },
@@ -1484,9 +1484,9 @@
       "citation": "MORAL LETTERS, 23.4"
   },
   "07-31": {
-      "theme": "PRAGMATISM",
+      "theme": "DUTY",
       "title": "YOUR CAREER IS NOT A LIFE SENTENCE",
-      "quote": "How disgraceful is the lawyer whose dying breath passes while at court, at an advanced age, pleading for unknown litigants and still seeking the approval of ignorant spectators.\" PRAGMATISM",
+      "quote": "How disgraceful is the lawyer whose dying breath passes while at court, at an advanced age, pleading for unknown litigants and still seeking the approval of ignorant spectators.",
       "author": "SENECA",
       "citation": "ON THE BREVITY OF LIFE, 20.2"
   },
@@ -1701,9 +1701,9 @@
       "citation": "MORAL LETTERS, 31.b-32"
   },
   "08-31": {
-      "theme": "FORTITUDE AND RESILIENCE",
+      "theme": "PRAGMATISM",
       "title": "CONSIDER YOUR FAILINGS TOO",
-      "quote": "Whenever you take offense at someone's wrongdoing, immediately turn to your own similar failings, such as seeing money as good, or pleasure, or a little fame--whatever form it takes. By thinking on this, you'll quickly forget your anger, considering also what compels them--for what else could they do? Or, if you are able, remove their compulsion.\" FORTITUDE AND RESILIENCE",
+      "quote": "Whenever you take offense at someone's wrongdoing, immediately turn to your own similar failings, such as seeing money as good, or pleasure, or a little fame--whatever form it takes. By thinking on this, you'll quickly forget your anger, considering also what compels them--for what else could they do? Or, if you are able, remove their compulsion.",
       "author": "MARCUS AURELIUS",
       "citation": "MEDITATIONS, 10.30"
   },
@@ -1911,7 +1911,7 @@
       "citation": "ON CONSOLATION TO HELVIA, 10.11b"
   },
   "09-30": {
-      "theme": "VIRTUE AND KINDNESS",
+      "theme": "FORTITUDE AND RESILIENCE",
       "title": "YOU CAN'T TOUCH ME",
       "quote": "If you lay violent hands on me, you'll have my body, but my mind will remain with Stilpo.",
       "author": "ZENO, QUOTED IN DIOGENES LAERTIUS",
@@ -2128,9 +2128,9 @@
       "citation": "ON THE BREVITY OF LIFE, 3.5b"
   },
   "10-31": {
-      "theme": "ACCEPTANCE",
+      "theme": "VIRTUE AND KINDNESS",
       "title": "YOU WERE BORN GOOD",
-      "quote": "The human being is born with an inclination toward virtue.\" ACCEPTANCE",
+      "quote": "The human being is born with an inclination toward virtue.",
       "author": "MUSONIUS RUFUS",
       "citation": "LECTURES, 2.7.1-2"
   },
@@ -2338,9 +2338,9 @@
       "citation": "MEDITATIONS, 7.43"
   },
   "11-30": {
-      "theme": "MEDITATION ON MORTALITY",
+      "theme": "ACCEPTANCE",
       "title": "FOLLOW THE LOGOS",
-      "quote": "The person who follows reason in all things will have both leisure and a readiness to act--they are at once both cheerful and self-composed.\" MEDITATION ON MORTALITY",
+      "quote": "The person who follows reason in all things will have both leisure and a readiness to act--they are at once both cheerful and self-composed.",
       "author": "MARCUS AURELIUS",
       "citation": "MEDITATIONS, 10.12b"
   },
