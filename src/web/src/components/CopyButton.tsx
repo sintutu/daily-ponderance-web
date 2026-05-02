@@ -1,9 +1,19 @@
 import React, { useState, useRef } from "react";
+import { ReadingQuote } from "../interfaces/Reading";
+import { getReadingTextLines, normalizeText } from "../utils/readings";
 
-const CopyButton: React.FC<{ date: string; title: string; quote: string; author: string; citation: string }> = ({
+const CopyButton: React.FC<{
+  date: string;
+  title: string;
+  quote?: string;
+  quotes?: ReadingQuote[];
+  author: string;
+  citation: string;
+}> = ({
   date,
   title,
   quote,
+  quotes,
   author,
   citation,
 }) => {
@@ -11,7 +21,8 @@ const CopyButton: React.FC<{ date: string; title: string; quote: string; author:
   const copyTimeoutRef = useRef<NodeJS.Timeout | null>(null);
 
   const formatDate = (dateString: string): string => {
-    const dateObj = new Date(dateString);
+    const [year, month, dayValue] = dateString.split("-").map(Number);
+    const dateObj = new Date(year, month - 1, dayValue);
     const options: Intl.DateTimeFormatOptions = { month: "long", day: "numeric" };
     const suffixes = ["th", "st", "nd", "rd"];
     const day = dateObj.getDate();
@@ -26,7 +37,19 @@ const CopyButton: React.FC<{ date: string; title: string; quote: string; author:
 
   const handleCopy = () => {
     const formattedDate = formatDate(date);
-    const contentToCopy = `${formattedDate}\n\n${title}\n\n\"${quote}\"\n\n- ${author}, ${citation}`;
+    const quoteBlocks = quotes?.length
+      ? quotes.map((readingQuote) => {
+          const quoteText = getReadingTextLines(readingQuote.text).join("\n\n");
+          const source = readingQuote.citation
+            ? `${readingQuote.author}, ${readingQuote.citation}`
+            : readingQuote.author;
+          return `"${quoteText}"\n\n- ${source}`;
+        })
+      : [`"${normalizeText(quote ?? "")}"\n\n- ${author}, ${citation}`];
+
+    const needsStandaloneSource = quotes?.some((readingQuote) => !readingQuote.citation);
+    const sourceBlock = needsStandaloneSource ? `\n\n- ${author}, ${citation}` : "";
+    const contentToCopy = `${formattedDate}\n\n${title}\n\n${quoteBlocks.join("\n\n")}${sourceBlock}`;
 
     navigator.clipboard.writeText(contentToCopy).then(() => {
       setButtonText("Copied!");

@@ -1,26 +1,19 @@
-import React, { useMemo, useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import CopyButton from '../components/CopyButton';
 import readings from '../data/daily_stoic_readings.json';
 import { Reading, Readings } from '../interfaces/Reading';
+import {
+  formatDateWithSuffix,
+  getMonthName,
+  getReadingQuotes,
+  getReadingTextLines,
+  hasStandaloneReadingSource,
+  monthNames,
+} from '../utils/readings';
 
 const readingsTyped: Readings = readings;
 
 const orderedReadingKeys = Object.keys(readingsTyped).sort();
-
-const monthNames = [
-  'January',
-  'February',
-  'March',
-  'April',
-  'May',
-  'June',
-  'July',
-  'August',
-  'September',
-  'October',
-  'November',
-  'December',
-];
 
 const daysByMonth = orderedReadingKeys.reduce<Record<string, string[]>>((acc, key) => {
   const [month, day] = key.split('-');
@@ -57,36 +50,6 @@ const getInitialReadingKey = (): string => {
   return readingsTyped[todayKey] ? todayKey : '01-01';
 };
 
-const formatDateWithSuffix = (readingKey: string): string => {
-  const suffixes = ['th', 'st', 'nd', 'rd'];
-  const [month, day] = readingKey.split('-').map(Number);
-  const daySuffix =
-    day % 10 === 1 && day !== 11 ? suffixes[1]
-    : day % 10 === 2 && day !== 12 ? suffixes[2]
-    : day % 10 === 3 && day !== 13 ? suffixes[3]
-    : suffixes[0];
-
-  return `${monthNames[month - 1]} ${day}${daySuffix}`;
-};
-
-const getMonthName = (readingKey: string): string => {
-  const [month] = readingKey.split('-').map(Number);
-  return monthNames[month - 1];
-};
-
-const normalizeText = (text: string): string => {
-  return text
-    .replace(/\s+--\s+/g, '\u2014')
-    .replace(/--/g, '\u2014')
-    .replace(/ \. \. \./g, ' . . .');
-};
-
-const getAdjacentReadingKey = (readingKey: string, direction: -1 | 1): string => {
-  const currentIndex = orderedReadingKeys.indexOf(readingKey);
-  const nextIndex = (currentIndex + direction + orderedReadingKeys.length) % orderedReadingKeys.length;
-  return orderedReadingKeys[nextIndex];
-};
-
 const toDatePickerValue = (readingKey: string): string => {
   const currentYear = getPacificDate().split('-')[0];
   const datePickerYear = readingKey === '02-29' ? '2024' : currentYear;
@@ -103,11 +66,7 @@ const DailyReading: React.FC = () => {
   const reading: Reading | null = readingsTyped[readingKey] ?? null;
   const [month, selectedDay] = readingKey.split('-');
   const availableDays = daysByMonth[month] ?? [];
-
-  const displayQuote = useMemo(
-    () => (reading ? normalizeText(reading.quote) : ''),
-    [reading]
-  );
+  const readingQuotes = reading ? getReadingQuotes(reading) : [];
 
   const updateReadingKey = (nextReadingKey: string) => {
     if (readingsTyped[nextReadingKey]) {
@@ -174,17 +133,6 @@ const DailyReading: React.FC = () => {
             ))}
           </select>
         </div>
-        <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.5rem' }}>
-          <button type="button" onClick={() => updateReadingKey(getAdjacentReadingKey(readingKey, -1))}>
-            Previous
-          </button>
-          <button type="button" onClick={() => updateReadingKey(getTodayKey())}>
-            Today
-          </button>
-          <button type="button" onClick={() => updateReadingKey(getAdjacentReadingKey(readingKey, 1))}>
-            Next
-          </button>
-        </div>
       </section>
 
       {reading ? (
@@ -194,19 +142,48 @@ const DailyReading: React.FC = () => {
           </p>
           <p>{formatDateWithSuffix(readingKey)}</p>
           <h3>{reading.title}</h3>
-          <blockquote>
-            <p>&ldquo;{displayQuote}&rdquo;</p>
-          </blockquote>
-          <footer>
-            - {reading.author}, <em>{reading.citation}</em>
-          </footer>
+          {readingQuotes.map((quote, index) => {
+            const lines = getReadingTextLines(quote.text);
+            const quoteKey = `${quote.author}-${quote.citation ?? index}`;
+
+            return (
+              <section key={quoteKey} style={{ marginTop: index === 0 ? '1rem' : '1.25rem' }}>
+                <blockquote style={{ margin: 0 }}>
+                  {lines.map((line, lineIndex) => {
+                    const isFirstLine = lineIndex === 0;
+                    const isLastLine = lineIndex === lines.length - 1;
+                    return (
+                      <p key={`${lineIndex}-${line}`} style={{ margin: lineIndex === 0 ? 0 : '1rem 0 0' }}>
+                        {isFirstLine ? '\u201c' : ''}
+                        {line}
+                        {isLastLine ? '\u201d' : ''}
+                      </p>
+                    );
+                  })}
+                </blockquote>
+                <footer style={{ marginTop: '0.75rem' }}>
+                  - {quote.author}
+                  {quote.citation ? (
+                    <>
+                      , <em>{quote.citation}</em>
+                    </>
+                  ) : null}
+                </footer>
+              </section>
+            );
+          })}
+          {hasStandaloneReadingSource(reading) ? (
+            <footer style={{ marginTop: '0.75rem' }}>
+              - {reading.author}, <em>{reading.citation}</em>
+            </footer>
+          ) : null}
           {reading.meditation?.map((paragraph) => (
-            <p key={paragraph}>{normalizeText(paragraph)}</p>
+            <p key={paragraph}>{paragraph}</p>
           ))}
           <CopyButton
             date={toDatePickerValue(readingKey)}
             title={reading.title}
-            quote={displayQuote}
+            quotes={readingQuotes}
             author={reading.author}
             citation={reading.citation}
           />

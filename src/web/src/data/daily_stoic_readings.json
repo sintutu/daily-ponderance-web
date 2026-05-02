@@ -9,14 +9,14 @@
   "01-02": {
       "theme": "CLARITY",
       "title": "EDUCATION IS FREEDOM",
-      "quote": "What is the fruit of these teachings? Only the most beautiful and proper harvest of the truly educated--tranquility, fearlessness, and freedom. We should not trust the masses who say only the free can be educated, but rather the lovers of wisdom who say that only the educated are free.",
+      "quote": "What is the fruit of these teachings? Only the most beautiful and proper harvest of the truly educated—tranquility, fearlessness, and freedom. We should not trust the masses who say only the free can be educated, but rather the lovers of wisdom who say that only the educated are free.",
       "author": "EPICTETUS",
       "citation": "DISCOURSES, 2.1.21-23a"
   },
   "01-03": {
       "theme": "CLARITY",
       "title": "BE RUTHLESS TO THE THINGS THAT DON'T MATTER",
-      "quote": "How many have laid waste to your life when you weren't aware of what you were losing, how much was wasted in pointless grief, foolish joy, greedy desire, and social amusements--how little of your own was left to you. You will realize you are dying before your time!",
+      "quote": "How many have laid waste to your life when you weren't aware of what you were losing, how much was wasted in pointless grief, foolish joy, greedy desire, and social amusements—how little of your own was left to you. You will realize you are dying before your time!",
       "author": "SENECA",
       "citation": "ON THE BREVITY OF LIFE, 3.3b"
   },
@@ -79,14 +79,14 @@
   "01-12": {
       "theme": "CLARITY",
       "title": "THE ONE PATH TO SERENITY",
-      "quote": "Keep this thought at the ready at daybreak, and through the day and night--there is only one path to happiness, and that is in giving up all outside of your sphere of choice, regarding nothing else as your possession, surrendering all else to God and Fortune.",
+      "quote": "Keep this thought at the ready at daybreak, and through the day and night—there is only one path to happiness, and that is in giving up all outside of your sphere of choice, regarding nothing else as your possession, surrendering all else to God and Fortune.",
       "author": "EPICTETUS",
       "citation": "DISCOURSES, 4.4.39"
   },
   "01-13": {
       "theme": "CLARITY",
       "title": "CIRCLE OF CONTROL",
-      "quote": "We control our reasoned choice and all acts that depend on that moral will. What's not under our control are the body and any of its parts, our possessions, parents, siblings, children, or country --anything with which we might associate.",
+      "quote": "We control our reasoned choice and all acts that depend on that moral will. What's not under our control are the body and any of its parts, our possessions, parents, siblings, children, or country —anything with which we might associate.",
       "author": "EPICTETUS",
       "citation": "DISCOURSES, 1.22.10"
   },
@@ -100,7 +100,7 @@
   "01-15": {
       "theme": "CLARITY",
       "title": "PEACE IS IN STAYING THE COURSE",
-      "quote": "Tranquility can't be grasped except by those who have reached an unwavering and firm power of judgment--the rest constantly fall and rise in their decisions, wavering in a state of alternately rejecting and accepting things. What is the cause of this back and forth? It's because nothing is clear and they rely on the most uncertain guide--common opinion.",
+      "quote": "Tranquility can't be grasped except by those who have reached an unwavering and firm power of judgment—the rest constantly fall and rise in their decisions, wavering in a state of alternately rejecting and accepting things. What is the cause of this back and forth? It's because nothing is clear and they rely on the most uncertain guide—common opinion.",
       "author": "SENECA",
       "citation": "MORAL LETTERS, 95.57b-58a"
   },
@@ -114,7 +114,7 @@
   "01-17": {
       "theme": "CLARITY",
       "title": "REBOOT THE REAL WORK",
-      "quote": "I am your teacher and you are learning in my school. My aim is to bring you to completion, unhindered, free from compulsive behavior, unrestrained, without shame, free, flourishing, and happy, looking to God in things great and small--your aim is to learn and diligently practice all these things. Why then don't you complete the work, if you have the right aim and I have both the right aim and right preparation? What is missing? . . . The work is quite feasible, and is the only thing in our power. . . . Let go of the past. We must only begin. Believe me and you will see.",
+      "quote": "I am your teacher and you are learning in my school. My aim is to bring you to completion, unhindered, free from compulsive behavior, unrestrained, without shame, free, flourishing, and happy, looking to God in things great and small—your aim is to learn and diligently practice all these things. Why then don't you complete the work, if you have the right aim and I have both the right aim and right preparation? What is missing? . . . The work is quite feasible, and is the only thing in our power. . . . Let go of the past. We must only begin. Believe me and you will see.",
       "author": "EPICTETUS",
       "citation": "DISCOURSES, 2.19.29-34"
   },
@@ -135,28 +135,37 @@
   "01-20": {
       "theme": "CLARITY",
       "title": "REIGNITE YOUR THOUGHTS",
-      "quote": "Your principles can't be extinguished unless you snuff out the thoughts that feed them, for it's continually in your power to reignite new ones. . . . It's possible to start living again! See things anew as you once did--that is how to restart life!",
+      "quote": "Your principles can't be extinguished unless you snuff out the thoughts that feed them, for it's continually in your power to reignite new ones. . . . It's possible to start living again! See things anew as you once did—that is how to restart life!",
       "author": "MARCUS AURELIUS",
       "citation": "MEDITATIONS, 7.2"
   },
   "01-21": {
       "theme": "CLARITY",
       "title": "A MORNING RITUAL",
-      "quote": "Ask yourself the following first thing in the morning: What am I lacking in attaining freedom from passion? What for tranquility? What am I? A mere body, estate-holder, or reputation? None of these things. What, then? A rational being. What then is demanded of me? Meditate on your actions. How did I steer away from serenity? What did I do that was unfriendly, unsocial, or uncaring? What did I fail to do in all these things?",
+      "quote": [
+          "Ask yourself the following first thing in the morning:",
+          "What am I lacking in attaining freedom from passion?",
+          "What for tranquility?",
+          "What am I? A mere body, estate-holder, or reputation? None of these things. What, then? A rational being.",
+          "What then is demanded of me? Meditate on your actions.",
+          "How did I steer away from serenity?",
+          "What did I do that was unfriendly, unsocial, or uncaring?",
+          "What did I fail to do in all these things?"
+      ],
       "author": "EPICTETUS",
       "citation": "DISCOURSES, 4.6.34-35"
   },
   "01-22": {
       "theme": "CLARITY",
       "title": "THE DAY IN REVIEW",
-      "quote": "I will keep constant watch over myself and--most usefully--will put each day up for review. For this is what makes us evil--that none of us looks back upon our own lives. We reflect upon only that which we are about to do. And yet our plans for the future descend from the past.",
+      "quote": "I will keep constant watch over myself and—most usefully—will put each day up for review. For this is what makes us evil—that none of us looks back upon our own lives. We reflect upon only that which we are about to do. And yet our plans for the future descend from the past.",
       "author": "SENECA",
       "citation": "MORAL LETTERS, 83.2"
   },
   "01-23": {
       "theme": "CLARITY",
       "title": "THE TRUTH ABOUT MONEY",
-      "quote": "Let's pass over to the really rich--how often the occasions they look just like the poor! When they travel abroad they must restrict their baggage, and when haste is necessary, they dismiss their entourage. And those who are in the army, how few of their possessions they get to keep . . .",
+      "quote": "Let's pass over to the really rich—how often the occasions they look just like the poor! When they travel abroad they must restrict their baggage, and when haste is necessary, they dismiss their entourage. And those who are in the army, how few of their possessions they get to keep . . .",
       "author": "SENECA",
       "citation": "ON CONSOLATION TO HELVIA, 12. 1.b-2"
   },
@@ -170,21 +179,21 @@
   "01-25": {
       "theme": "CLARITY",
       "title": "THE ONLY PRIZE",
-      "quote": "What's left to be prized? This, I think--to limit our action or inaction to only what's in keeping with the needs of our own preparation . . . it's what the exertions of education and teaching are all about--here is the thing to be prized! If you hold this firmly, you'll stop trying to get yourself all the other things. . . . If you don't, you won't be free, self-sufficient, or liberated from passion, but necessarily full of envy, jealousy, and suspicion for any who have the power to take them, and you'll plot against those who do have what you prize. . . . But by having some self-respect for your own mind and prizing it, you will please yourself and be in better harmony with your fellow human beings, and more in tune with the gods--praising everything they have set in order and allotted you.",
+      "quote": "What's left to be prized? This, I think—to limit our action or inaction to only what's in keeping with the needs of our own preparation . . . it's what the exertions of education and teaching are all about—here is the thing to be prized! If you hold this firmly, you'll stop trying to get yourself all the other things. . . . If you don't, you won't be free, self-sufficient, or liberated from passion, but necessarily full of envy, jealousy, and suspicion for any who have the power to take them, and you'll plot against those who do have what you prize. . . . But by having some self-respect for your own mind and prizing it, you will please yourself and be in better harmony with your fellow human beings, and more in tune with the gods—praising everything they have set in order and allotted you.",
       "author": "MARCUS AURELIUS",
       "citation": "MEDITATIONS, 6.16.2b-4a"
   },
   "01-26": {
       "theme": "CLARITY",
       "title": "THE POWER OF A MANTRA",
-      "quote": "Erase the false impressions from your mind by constantly saying to yourself, I have it in my soul to keep out any evil, desire or any kind of disturbance--instead, seeing the true nature of things, I will give them only their due. Always remember this power that nature gave you.",
+      "quote": "Erase the false impressions from your mind by constantly saying to yourself, I have it in my soul to keep out any evil, desire or any kind of disturbance—instead, seeing the true nature of things, I will give them only their due. Always remember this power that nature gave you.",
       "author": "MARCUS AURELIUS",
       "citation": "MEDITATIONS, 8.29"
   },
   "01-27": {
       "theme": "CLARITY",
       "title": "THE THREE AREAS OF TRAINING",
-      "quote": "There are three areas in which the person who would be wise and good must be trained. The first has to do with desires and aversions--that a person may never miss the mark in desires nor fall into what repels them. The second has to do with impulses to act and not to act--and more broadly, with duty--that a person may act deliberately for good reasons and not carelessly. The third has to do with freedom from deception and composure and the whole area of judgment, the assent our mind gives to its perceptions. Of these areas, the chief and most urgent is the first which has to do with the passions, for strong emotions arise only when we fail in our desires and aversions.",
+      "quote": "There are three areas in which the person who would be wise and good must be trained. The first has to do with desires and aversions—that a person may never miss the mark in desires nor fall into what repels them. The second has to do with impulses to act and not to act—and more broadly, with duty—that a person may act deliberately for good reasons and not carelessly. The third has to do with freedom from deception and composure and the whole area of judgment, the assent our mind gives to its perceptions. Of these areas, the chief and most urgent is the first which has to do with the passions, for strong emotions arise only when we fail in our desires and aversions.",
       "author": "EPICTETUS",
       "citation": "DISCOURSES, 3.2.1-3a"
   },
@@ -198,14 +207,14 @@
   "01-29": {
       "theme": "CLARITY",
       "title": "KEEP IT SIMPLE",
-      "quote": "At every moment keep a sturdy mind on the task at hand, as a Roman and human being, doing it with strict and simple dignity, affection, freedom, and justice--giving yourself a break from all other considerations. You can do this if you approach each task as if it is your last, giving up every distraction, emotional subversion of reason, and all drama, vanity, and complaint over your fair share. You can see how mastery over a few things makes it possible to live an abundant and devout life--for, if you keep watch over these things, the gods won't ask for more.",
+      "quote": "At every moment keep a sturdy mind on the task at hand, as a Roman and human being, doing it with strict and simple dignity, affection, freedom, and justice—giving yourself a break from all other considerations. You can do this if you approach each task as if it is your last, giving up every distraction, emotional subversion of reason, and all drama, vanity, and complaint over your fair share. You can see how mastery over a few things makes it possible to live an abundant and devout life—for, if you keep watch over these things, the gods won't ask for more.",
       "author": "MARCUS AURELIUS",
       "citation": "MEDITATIONS, 2.5"
   },
   "01-30": {
       "theme": "CLARITY",
       "title": "YOU DON'T HAVE TO STAY ON TOP OF EVERYTHING",
-      "quote": "If you wish to improve, be content to appear clueless or stupid in extraneous matters--don't wish to seem knowledgeable. And if some regard you as important, distrust yourself.",
+      "quote": "If you wish to improve, be content to appear clueless or stupid in extraneous matters—don't wish to seem knowledgeable. And if some regard you as important, distrust yourself.",
       "author": "EPICTETUS",
       "citation": "ENCHIRIDION, 13a"
   },
@@ -219,14 +228,14 @@
   "02-01": {
       "theme": "PASSIONS AND EMOTIONS",
       "title": "FOR THE HOT-HEADED PERSON",
-      "quote": "Keep this thought handy when you feel a fit of rage coming on--it isn't manly to be enraged. Rather, gentleness and civility are more human, and therefore manlier. A real man doesn't give way to anger and discontent, and such a person has strength, courage, and endurance--unlike the angry and complaining.         The nearer a man comes to a calm mind, the closer he is to strength.",
+      "quote": "Keep this thought handy when you feel a fit of rage coming on—it isn't manly to be enraged. Rather, gentleness and civility are more human, and therefore manlier. A real man doesn't give way to anger and discontent, and such a person has strength, courage, and endurance—unlike the angry and complaining.         The nearer a man comes to a calm mind, the closer he is to strength.",
       "author": "MARCUS AURELIUS",
       "citation": "MEDITATIONS, 11.18.5b"
   },
   "02-02": {
       "theme": "PASSIONS AND EMOTIONS",
       "title": "A PROPER FRAME OF MIND",
-      "quote": "Frame your thoughts like this--you are an old person, you won't let yourself be enslaved by this any longer, no longer pulled like a puppet by every impulse, and you'll stop complaining about your present fortune or dreading the future.",
+      "quote": "Frame your thoughts like this—you are an old person, you won't let yourself be enslaved by this any longer, no longer pulled like a puppet by every impulse, and you'll stop complaining about your present fortune or dreading the future.",
       "author": "MARCUS AURELIUS",
       "citation": "MEDITATIONS, 2.2"
   },
@@ -254,7 +263,7 @@
   "02-06": {
       "theme": "PASSIONS AND EMOTIONS",
       "title": "DON'T SEEK OUT STRIFE",
-      "quote": "I don't agree with those who plunge headlong into the middle of the flood and who, accepting a turbulent life, struggle daily in great spirit with difficult circumstances. The wise person will endure that, but won't choose it--choosing to be at peace, rather than at war.",
+      "quote": "I don't agree with those who plunge headlong into the middle of the flood and who, accepting a turbulent life, struggle daily in great spirit with difficult circumstances. The wise person will endure that, but won't choose it—choosing to be at peace, rather than at war.",
       "author": "SENECA",
       "citation": "MORAL LETTERS, 28.7"
   },
@@ -275,21 +284,21 @@
   "02-09": {
       "theme": "PASSIONS AND EMOTIONS",
       "title": "YOU DON'T HAVE TO HAVE AN OPINION",
-      "quote": "We have the power to hold no opinion about a thing and to not let it upset our state of mind--for things have no natural power to shape our judgments.",
+      "quote": "We have the power to hold no opinion about a thing and to not let it upset our state of mind—for things have no natural power to shape our judgments.",
       "author": "MARCUS AURELIUS",
       "citation": "MEDITATIONS, 6.52"
   },
   "02-10": {
       "theme": "PASSIONS AND EMOTIONS",
       "title": "ANGER IS BAD FUEL",
-      "quote": "There is no more stupefying thing than anger, nothing more bent on its own strength. If successful, none more arrogant, if foiled, none more insane--since it's not driven back by weariness even in defeat, when fortune removes its adversary it turns its teeth on itself.",
+      "quote": "There is no more stupefying thing than anger, nothing more bent on its own strength. If successful, none more arrogant, if foiled, none more insane—since it's not driven back by weariness even in defeat, when fortune removes its adversary it turns its teeth on itself.",
       "author": "SENECA",
       "citation": "ON ANGER, 3.1.5"
   },
   "02-11": {
       "theme": "PASSIONS AND EMOTIONS",
       "title": "HERO OR NERO?",
-      "quote": "Our soul is sometimes a king, and sometimes a tyrant. A king, by attending to what is honorable, protects the good health of the body in its care, and gives it no base or sordid command. But an uncontrolled, desire-fueled, over-indulged soul is turned from a king into that most feared and detested thing--a tyrant.",
+      "quote": "Our soul is sometimes a king, and sometimes a tyrant. A king, by attending to what is honorable, protects the good health of the body in its care, and gives it no base or sordid command. But an uncontrolled, desire-fueled, over-indulged soul is turned from a king into that most feared and detested thing—a tyrant.",
       "author": "SENECA",
       "citation": "MORAL LETTERS, 114.24"
   },
@@ -303,14 +312,14 @@
   "02-13": {
       "theme": "PASSIONS AND EMOTIONS",
       "title": "PLEASURE CAN BECOME PUNISHMENT",
-      "quote": "Whenever you get an impression of some pleasure, as with any impression, guard yourself from being carried away by it, let it await your action, give yourself a pause. After that, bring to mind both times, first when you have enjoyed the pleasure and later when you will regret it and hate yourself. Then compare to those the joy and satisfaction you'd feel for abstaining altogether. However, if a seemingly appropriate time arises to act on it, don't be overcome by its comfort, pleasantness, and allure--but against all of this, how much better the consciousness of conquering it.",
+      "quote": "Whenever you get an impression of some pleasure, as with any impression, guard yourself from being carried away by it, let it await your action, give yourself a pause. After that, bring to mind both times, first when you have enjoyed the pleasure and later when you will regret it and hate yourself. Then compare to those the joy and satisfaction you'd feel for abstaining altogether. However, if a seemingly appropriate time arises to act on it, don't be overcome by its comfort, pleasantness, and allure—but against all of this, how much better the consciousness of conquering it.",
       "author": "EPICTETUS",
       "citation": "ENCHIRIDION, 34"
   },
   "02-14": {
       "theme": "PASSIONS AND EMOTIONS",
       "title": "THINK BEFORE YOU ACT",
-      "quote": "For, to be wise is only one thing--to fix our attention on our intelligence, which guides all things everywhere.",
+      "quote": "For, to be wise is only one thing—to fix our attention on our intelligence, which guides all things everywhere.",
       "author": "HERACLITUS",
       "citation": "QUOTED IN DIOGENES LAERTIUS, LIVES OF THE EMINENT PHILOSOPHERS, 9.1"
   },
@@ -338,21 +347,21 @@
   "02-18": {
       "theme": "PASSIONS AND EMOTIONS",
       "title": "PREPARE FOR THE STORM",
-      "quote": "This is the true athlete--the person in rigorous training against false impressions. Remain firm, you who suffer, don't be kidnapped by your impressions! The struggle is great, the task divine-- to gain mastery, freedom, happiness, and tranquility.",
+      "quote": "This is the true athlete—the person in rigorous training against false impressions. Remain firm, you who suffer, don't be kidnapped by your impressions! The struggle is great, the task divine— to gain mastery, freedom, happiness, and tranquility.",
       "author": "EPICTETUS",
       "citation": "DISCOURSES, 2.18.27-28"
   },
   "02-19": {
       "theme": "PASSIONS AND EMOTIONS",
       "title": "THE BANQUET OF LIFE",
-      "quote": "Remember to conduct yourself in life as if at a banquet. As something being passed around comes to you, reach out your hand and take a moderate helping. Does it pass you by? Don't stop it. It hasn't yet come? Don't burn in desire for it, but wait until it arrives in front of you. Act this way with children, a spouse, toward position, with wealth--one day it will make you worthy of a banquet with the gods.",
+      "quote": "Remember to conduct yourself in life as if at a banquet. As something being passed around comes to you, reach out your hand and take a moderate helping. Does it pass you by? Don't stop it. It hasn't yet come? Don't burn in desire for it, but wait until it arrives in front of you. Act this way with children, a spouse, toward position, with wealth—one day it will make you worthy of a banquet with the gods.",
       "author": "EPICTETUS",
       "citation": "ENCHIRIDION, 15"
   },
   "02-20": {
       "theme": "PASSIONS AND EMOTIONS",
       "title": "THE GRAND PARADE OF DESIRE",
-      "quote": "Robbers, perverts, killers, and tyrants--gather for your inspection their so-called pleasures!",
+      "quote": "Robbers, perverts, killers, and tyrants—gather for your inspection their so-called pleasures!",
       "author": "MARCUS AURELIUS",
       "citation": "MEDITATIONS, 6.34"
   },
@@ -415,7 +424,7 @@
   "02-29": {
       "theme": "AWARENESS",
       "title": "YOU CAN'T ALWAYS (BE) GET(TING) WHAT YOU WANT",
-      "quote": "When children stick their hand down a narrow goody jar they can't get their full fist out and start crying. Drop a few treats and you will get it out! Curb your desire--don't set your heart on so many things and you will get what you need.",
+      "quote": "When children stick their hand down a narrow goody jar they can't get their full fist out and start crying. Drop a few treats and you will get it out! Curb your desire—don't set your heart on so many things and you will get what you need.",
       "author": "EPICTETUS",
       "citation": "DISCOURSES, 3.9.22"
   },
@@ -436,21 +445,21 @@
   "03-03": {
       "theme": "AWARENESS",
       "title": "(DIS)INTEGRATION",
-      "quote": "These things don't go together. You must be a unified human being, either good or bad. You must diligently work either on your own reasoning or on things out of your control--take great care with the inside and not what's outside, which is to say, stand with the philosopher, or else with the mob!",
+      "quote": "These things don't go together. You must be a unified human being, either good or bad. You must diligently work either on your own reasoning or on things out of your control—take great care with the inside and not what's outside, which is to say, stand with the philosopher, or else with the mob!",
       "author": "EPICTETUS",
       "citation": "DISCOURSES, 3.15.13"
   },
   "03-04": {
       "theme": "AWARENESS",
       "title": "AWARENESS IS FREEDOM",
-      "quote": "The person is free who lives as they wish, neither compelled, nor hindered, nor limited--whose choices aren't hampered, whose desires succeed, and who don't fall into what repels them. Who wishes to live in deception--tripped up, mistaken, undisciplined, complaining, in a rut? No one. These are base people who don't live as they wish; and so, no base person is free.",
+      "quote": "The person is free who lives as they wish, neither compelled, nor hindered, nor limited—whose choices aren't hampered, whose desires succeed, and who don't fall into what repels them. Who wishes to live in deception—tripped up, mistaken, undisciplined, complaining, in a rut? No one. These are base people who don't live as they wish; and so, no base person is free.",
       "author": "EPICTETUS",
       "citation": "DISCOURSES, 4.1.1-3a"
   },
   "03-05": {
       "theme": "AWARENESS",
       "title": "CUTTING BACK ON THE COSTLY",
-      "quote": "So, concerning the things we pursue, and for which we vigorously exert ourselves, we owe this consideration--either there is nothing useful in them, or most aren't useful. Some of them are superfluous, while others aren't worth that much. But we don't discern this and see them as free, when they cost us dearly.",
+      "quote": "So, concerning the things we pursue, and for which we vigorously exert ourselves, we owe this consideration—either there is nothing useful in them, or most aren't useful. Some of them are superfluous, while others aren't worth that much. But we don't discern this and see them as free, when they cost us dearly.",
       "author": "SENECA",
       "citation": "MORAL LETTERS, 42.6"
   },
@@ -471,14 +480,14 @@
   "03-08": {
       "theme": "AWARENESS",
       "title": "DON'T UNINTENTIONALLY HAND OVER YOUR FREEDOM",
-      "quote": "If a person gave away your body to some passerby, you'd be furious. Yet you hand over your mind to anyone who comes along, so they may abuse you, leaving it disturbed and troubled-- have you no shame in that?",
+      "quote": "If a person gave away your body to some passerby, you'd be furious. Yet you hand over your mind to anyone who comes along, so they may abuse you, leaving it disturbed and troubled— have you no shame in that?",
       "author": "EPICTETUS",
       "citation": "ENCHIRIDION, 28"
   },
   "03-09": {
       "theme": "AWARENESS",
       "title": "FIND THE RIGHT SCENE",
-      "quote": "Above all, keep a close watch on this--that you are never so tied to your former acquaintances and friends that you are pulled down to their level. If you don't, you'll be ruined. . . . You must choose whether to be loved by these friends and remain the same person, or to become a better person at the cost of those friends . . . if you try to have it both ways you will neither make progress nor keep what you once had.",
+      "quote": "Above all, keep a close watch on this—that you are never so tied to your former acquaintances and friends that you are pulled down to their level. If you don't, you'll be ruined. . . . You must choose whether to be loved by these friends and remain the same person, or to become a better person at the cost of those friends . . . if you try to have it both ways you will neither make progress nor keep what you once had.",
       "author": "EPICTETUS",
       "citation": "DISCOURSES, 4.2.1; 4-5"
   },
@@ -548,7 +557,7 @@
   "03-19": {
       "theme": "AWARENESS",
       "title": "TIMELESS WISDOM",
-      "quote": "For there are two rules to keep at the ready--that there is nothing good or bad outside my own reasoned choice, and that we shouldn't try to lead events but to follow them.",
+      "quote": "For there are two rules to keep at the ready—that there is nothing good or bad outside my own reasoned choice, and that we shouldn't try to lead events but to follow them.",
       "author": "EPICTETUS",
       "citation": "DISCOURSES, 3.10.18"
   },
@@ -562,7 +571,7 @@
   "03-21": {
       "theme": "AWARENESS",
       "title": "THE BEST RETREAT IS IN HERE, NOT OUT THERE",
-      "quote": "People seek retreats for themselves in the country, by the sea, or in the mountains. You are very much in the habit of yearning for those same things. But this is entirely the trait of a base person, when you can, at any moment, find such a retreat in yourself. For nowhere can you find a more peaceful and less busy retreat than in your own soul--especially if on close inspection it is filled with ease, which I say is nothing more than being well-ordered. Treat yourself often to this retreat and be renewed.",
+      "quote": "People seek retreats for themselves in the country, by the sea, or in the mountains. You are very much in the habit of yearning for those same things. But this is entirely the trait of a base person, when you can, at any moment, find such a retreat in yourself. For nowhere can you find a more peaceful and less busy retreat than in your own soul—especially if on close inspection it is filled with ease, which I say is nothing more than being well-ordered. Treat yourself often to this retreat and be renewed.",
       "author": "MARCUS AURELIUS",
       "citation": "MEDITATIONS, 4.3.1"
   },
@@ -576,14 +585,14 @@
   "03-23": {
       "theme": "AWARENESS",
       "title": "THE STRAITJACKETED SOUL",
-      "quote": "The diseases of the rational soul are long-standing and hardened vices, such as greed and ambition--they have put the soul in a straitjacket and have begun to be permanent evils inside it. To put it briefly, this sickness is an unrelenting distortion of judgment, so things that are only mildly desirable are vigorously sought after.",
+      "quote": "The diseases of the rational soul are long-standing and hardened vices, such as greed and ambition—they have put the soul in a straitjacket and have begun to be permanent evils inside it. To put it briefly, this sickness is an unrelenting distortion of judgment, so things that are only mildly desirable are vigorously sought after.",
       "author": "SENECA",
       "citation": "MORAL LETTERS, 75.11"
   },
   "03-24": {
       "theme": "AWARENESS",
       "title": "THERE IS PHILOSOPHY IN EVERYTHING",
-      "quote": "Eat like a human being, drink like a human being, dress up, marry, have children, get politically active--suffer abuse, bear with a headstrong brother, father, son, neighbor, or companion. Show us these things so we can see that you truly have learned from the philosophers.",
+      "quote": "Eat like a human being, drink like a human being, dress up, marry, have children, get politically active—suffer abuse, bear with a headstrong brother, father, son, neighbor, or companion. Show us these things so we can see that you truly have learned from the philosophers.",
       "author": "EPICTETUS",
       "citation": "DISCOURSES, 3.21.5-6"
   },
@@ -625,7 +634,7 @@
   "03-30": {
       "theme": "AWARENESS",
       "title": "REASON IN ALL THINGS",
-      "quote": "Hurry to your own ruling reason, to the reason of the Whole, and to your neighbor's. To your own mind to make it just; to the mind of the Whole to remember your place in it; and to your neighbor's mind to learn whether it's ignorant or of sound knowledge--while recognizing it's like yours.",
+      "quote": "Hurry to your own ruling reason, to the reason of the Whole, and to your neighbor's. To your own mind to make it just; to the mind of the Whole to remember your place in it; and to your neighbor's mind to learn whether it's ignorant or of sound knowledge—while recognizing it's like yours.",
       "author": "MARCUS AURELIUS",
       "citation": "MEDITATIONS, 9.22"
   },
@@ -646,42 +655,42 @@
   "04-02": {
       "theme": "UNBIASED THOUGHT",
       "title": "BE WARY OF WHAT YOU LETIN",
-      "quote": "Drama, combat, terror, numbness, and subservience--every day these things wipe out your sacred principles, whenever your mind entertains them uncritically or lets them slip in.",
+      "quote": "Drama, combat, terror, numbness, and subservience—every day these things wipe out your sacred principles, whenever your mind entertains them uncritically or lets them slip in.",
       "author": "MARCUS AURELIUS",
       "citation": "MEDITATIONS, 10.9"
   },
   "04-03": {
       "theme": "UNBIASED THOUGHT",
       "title": "DECEIVED AND DIVIDED",
-      "quote": "Circumstances are what deceive us--you must be discerning in them. We embrace evil before good. We desire the opposite of what we once desired. Our prayers are at war with our prayers, our plans with our plans.",
+      "quote": "Circumstances are what deceive us—you must be discerning in them. We embrace evil before good. We desire the opposite of what we once desired. Our prayers are at war with our prayers, our plans with our plans.",
       "author": "SENECA",
       "citation": "MORAL LETTERS, 45.6"
   },
   "04-04": {
       "theme": "UNBIASED THOUGHT",
       "title": "DON'T LET THIS GO TO YOUR HEAD",
-      "quote": "Make sure you're not made 'Emperor,' avoid that imperial stain. It can happen to you, so keep yourself simple, good, pure, saintly, plain, a friend of justice, god-fearing, gracious, affectionate, and strong for your proper work. Fight to remain the person that philosophy wished to make you. Revere the gods, and look after each other. Life is short--the fruit of this life is a good character and acts for the common good.",
+      "quote": "Make sure you're not made 'Emperor,' avoid that imperial stain. It can happen to you, so keep yourself simple, good, pure, saintly, plain, a friend of justice, god-fearing, gracious, affectionate, and strong for your proper work. Fight to remain the person that philosophy wished to make you. Revere the gods, and look after each other. Life is short—the fruit of this life is a good character and acts for the common good.",
       "author": "MARCUS AURELIUS",
       "citation": "MEDITATIONS, 6.30"
   },
   "04-05": {
       "theme": "UNBIASED THOUGHT",
       "title": "TRUST, BUT VERIFY",
-      "quote": "First off, don't let the force of the impression carry you away. Say to it, 'hold up a bit and let me see who you are and where you are from--let me put you to the test' . . .",
+      "quote": "First off, don't let the force of the impression carry you away. Say to it, 'hold up a bit and let me see who you are and where you are from—let me put you to the test' . . .",
       "author": "EPICTETUS",
       "citation": "DISCOURSES, 2.18.24"
   },
   "04-06": {
       "theme": "UNBIASED THOUGHT",
       "title": "PREPARE YOURSELF FOR NEGATIVITY",
-      "quote": "When you first rise in the morning tell yourself: I will encounter busybodies, ingrates, egomaniacs, liars, the jealous and cranks. They are all stricken with these afflictions because they don't know the difference between good and evil. Because I have understood the beauty of good and the ugliness of evil, I know that these wrong-doers are still akin to me . . . and that none can do me harm, or implicate me in ugliness--nor can I be angry at my relatives or hate them. For we are made for cooperation.",
+      "quote": "When you first rise in the morning tell yourself: I will encounter busybodies, ingrates, egomaniacs, liars, the jealous and cranks. They are all stricken with these afflictions because they don't know the difference between good and evil. Because I have understood the beauty of good and the ugliness of evil, I know that these wrong-doers are still akin to me . . . and that none can do me harm, or implicate me in ugliness—nor can I be angry at my relatives or hate them. For we are made for cooperation.",
       "author": "MARCUS AURELIUS",
       "citation": "MEDITATIONS, 2.1"
   },
   "04-07": {
       "theme": "UNBIASED THOUGHT",
       "title": "EXPECT TO CHANGE YOUR OPINIONS",
-      "quote": "There are two things that must be rooted out in human beings--arrogant opinion and mistrust. Arrogant opinion expects that there is nothing further needed, and mistrust assumes that under the torrent of circumstance there can be no happiness.",
+      "quote": "There are two things that must be rooted out in human beings—arrogant opinion and mistrust. Arrogant opinion expects that there is nothing further needed, and mistrust assumes that under the torrent of circumstance there can be no happiness.",
       "author": "EPICTETUS",
       "citation": "DISCOURSES, 3.14.8"
   },
@@ -695,7 +704,7 @@
   "04-09": {
       "theme": "UNBIASED THOUGHT",
       "title": "TEST YOUR IMPRESSIONS",
-      "quote": "From the very beginning, make it your practice to say to every harsh impression, 'you are an impression and not at all what you appear to be.' Next, examine and test it by the rules you possess, the first and greatest of which is this--whether it belongs to the things in our control or not in our control, and if the latter, be prepared to respond, 'It is nothing to me.'",
+      "quote": "From the very beginning, make it your practice to say to every harsh impression, 'you are an impression and not at all what you appear to be.' Next, examine and test it by the rules you possess, the first and greatest of which is this—whether it belongs to the things in our control or not in our control, and if the latter, be prepared to respond, 'It is nothing to me.'",
       "author": "EPICTETUS",
       "citation": "ENCHIRIDION, 1.5"
   },
@@ -737,7 +746,7 @@
   "04-15": {
       "theme": "UNBIASED THOUGHT",
       "title": "PAY YOUR TAXES",
-      "quote": "Nothing will ever befall me that I will receive with gloom or a bad disposition.      I will pay my taxes gladly. Now, all the things which cause complaint or dread are like the taxes of life -- things from which, my dear Lucilius, you should never hope for exemption or seek escape.",
+      "quote": "Nothing will ever befall me that I will receive with gloom or a bad disposition.      I will pay my taxes gladly. Now, all the things which cause complaint or dread are like the taxes of life — things from which, my dear Lucilius, you should never hope for exemption or seek escape.",
       "author": "SENECA",
       "citation": "MORAL LETTERS, 96.2"
   },
@@ -765,21 +774,21 @@
   "04-19": {
       "theme": "UNBIASED THOUGHT",
       "title": "OUR SPHERE OF IMPULSES",
-      "quote": "Epictetus says we must discover the missing art of assent and pay special attention to the sphere of our impulses--that they are subject to reservation, to the common good, and that they are in proportion to actual worth.",
+      "quote": "Epictetus says we must discover the missing art of assent and pay special attention to the sphere of our impulses—that they are subject to reservation, to the common good, and that they are in proportion to actual worth.",
       "author": "MARCUS AURELIUS",
       "citation": "MEDITATIONS, 11.37"
   },
   "04-20": {
       "theme": "UNBIASED THOUGHT",
       "title": "REAL GOOD IS SIMPLE",
-      "quote": "Here's a way to think about what the masses regard as being 'good' things. If you would first start by setting your mind upon things that are unquestionably good--wisdom, self-control, justice, courage--with this preconception you'll no longer be able to listen to the popular refrain that there are too many good things to experience in a lifetime.",
+      "quote": "Here's a way to think about what the masses regard as being 'good' things. If you would first start by setting your mind upon things that are unquestionably good—wisdom, self-control, justice, courage—with this preconception you'll no longer be able to listen to the popular refrain that there are too many good things to experience in a lifetime.",
       "author": "MARCUS AURELIUS",
       "citation": "MEDITATIONS, 5.12"
   },
   "04-21": {
       "theme": "UNBIASED THOUGHT",
       "title": "DON'T LET YOUR ATTENTION SLIDE",
-      "quote": "When you let your attention slide for a bit, don't think you will get back a grip on it whenever you wish--instead, bear in mind that because of today's mistake everything that follows will be necessarily worse. . . . Is it possible to be free from error? Not by any means, but it is possible to be a person always stretching to avoid error. For we must be content to at least escape a few mistakes by never letting our attention slide.",
+      "quote": "When you let your attention slide for a bit, don't think you will get back a grip on it whenever you wish—instead, bear in mind that because of today's mistake everything that follows will be necessarily worse. . . . Is it possible to be free from error? Not by any means, but it is possible to be a person always stretching to avoid error. For we must be content to at least escape a few mistakes by never letting our attention slide.",
       "author": "EPICTETUS",
       "citation": "DISCOURSES, 4.12.1; 19"
   },
@@ -793,21 +802,21 @@
   "04-23": {
       "theme": "UNBIASED THOUGHT",
       "title": "THE MIND IS ALL YOURS",
-      "quote": "You have been formed of three parts--body, breath, and mind. Of these, the first two are yours insofar as they are only in your care. The third alone is truly yours.",
+      "quote": "You have been formed of three parts—body, breath, and mind. Of these, the first two are yours insofar as they are only in your care. The third alone is truly yours.",
       "author": "MARCUS AURELIUS",
       "citation": "MEDITATIONS, 12.3"
   },
   "04-24": {
       "theme": "UNBIASED THOUGHT",
       "title": "A PRODUCTIVE USE FOR CONTEMPT",
-      "quote": "Just as when meat or other foods are set before us we think, this is a dead fish, a dead bird or pig; and also, this fine wine is only the juice of a bunch of grapes, this purple-edged robe just sheep's wool dyed in a bit of blood from a shellfish; or of sex, that it is only rubbing private parts together followed by a spasmic discharge--in the same way our impressions grab actual events and permeate them, so we see them as they really are.",
+      "quote": "Just as when meat or other foods are set before us we think, this is a dead fish, a dead bird or pig; and also, this fine wine is only the juice of a bunch of grapes, this purple-edged robe just sheep's wool dyed in a bit of blood from a shellfish; or of sex, that it is only rubbing private parts together followed by a spasmic discharge—in the same way our impressions grab actual events and permeate them, so we see them as they really are.",
       "author": "MARCUS AURELIUS",
       "citation": "MEDITATIONS, 6.13"
   },
   "04-25": {
       "theme": "UNBIASED THOUGHT",
       "title": "THERE'S NOTHING WRONG WITH BEING WRONG",
-      "quote": "If anyone can prove and show to me that I think and act in error, I will gladly change it--for I seek the truth, by which no one has ever been harmed. The one who is harmed is the one who abides in deceit and ignorance.",
+      "quote": "If anyone can prove and show to me that I think and act in error, I will gladly change it—for I seek the truth, by which no one has ever been harmed. The one who is harmed is the one who abides in deceit and ignorance.",
       "author": "MARCUS AURELIUS",
       "citation": "MEDITATIONS, 6.21"
   },
@@ -821,14 +830,14 @@
   "04-27": {
       "theme": "UNBIASED THOUGHT",
       "title": "TURN IT INSIDE OUT",
-      "quote": "Turn it inside out and see what it is like--what it becomes like when old, sick, or prostituting itself. How short-lived the praiser and praised, the one who remembers and the remembered. Remembered in some corner of these parts, and even there not in the same way by all, or even by one. And the whole earth is but a mere speck.",
+      "quote": "Turn it inside out and see what it is like—what it becomes like when old, sick, or prostituting itself. How short-lived the praiser and praised, the one who remembers and the remembered. Remembered in some corner of these parts, and even there not in the same way by all, or even by one. And the whole earth is but a mere speck.",
       "author": "MARCUS AURELIUS",
       "citation": "MEDITATIONS, 8.21"
   },
   "04-28": {
       "theme": "UNBIASED THOUGHT",
       "title": "WANTS MAKE YOU A SERVANT",
-      "quote": "Tantalus: The highest power is--\n\n Thyestes: No power, if you desire nothing.",
+      "quote": "Tantalus: The highest power is—\n\n Thyestes: No power, if you desire nothing.",
       "author": "SENECA",
       "citation": "THYESTES, 440"
   },
@@ -884,7 +893,7 @@
   "05-06": {
       "theme": "RIGHT ACTION",
       "title": "RIGHTEOUSNESS IS BEAUTIFUL",
-      "quote": "Then what makes a beautiful human being? Isn't it the presence of human excellence? Young friend, if you wish to be beautiful, then work diligently at human excellence. And what is that? Observe those whom you praise without prejudice. The just or the unjust? The just. The even- tempered or the undisciplined? The even-tempered. The self-controlled or the uncontrolled? The self-controlled. In making yourself that kind of person, you will become beautiful--but to the extent you ignore these qualities, you'll be ugly, even if you use every trick in the book to appear beautiful.",
+      "quote": "Then what makes a beautiful human being? Isn't it the presence of human excellence? Young friend, if you wish to be beautiful, then work diligently at human excellence. And what is that? Observe those whom you praise without prejudice. The just or the unjust? The just. The even- tempered or the undisciplined? The even-tempered. The self-controlled or the uncontrolled? The self-controlled. In making yourself that kind of person, you will become beautiful—but to the extent you ignore these qualities, you'll be ugly, even if you use every trick in the book to appear beautiful.",
       "author": "EPICTETUS",
       "citation": "DISCOURSES, 3.1.6b-9"
   },
@@ -912,7 +921,7 @@
   "05-10": {
       "theme": "RIGHT ACTION",
       "title": "DON'T BE INSPIRED, BE INSPIRATIONAL",
-      "quote": "Let us also produce some bold act of our own--and join the ranks of the most emulated.",
+      "quote": "Let us also produce some bold act of our own—and join the ranks of the most emulated.",
       "author": "SENECA",
       "citation": "MORAL LETTERS, 98.13b"
   },
@@ -926,7 +935,7 @@
   "05-12": {
       "theme": "RIGHT ACTION",
       "title": "KINDNESS IS ALWAYS THE RIGHT RESPONSE",
-      "quote": "Kindness is invincible, but only when it's sincere, with no hypocrisy or faking. For what can even the most malicious person do if you keep showing kindness and, if given the chance, you gently point out where they went wrong--right as they are trying to harm you?",
+      "quote": "Kindness is invincible, but only when it's sincere, with no hypocrisy or faking. For what can even the most malicious person do if you keep showing kindness and, if given the chance, you gently point out where they went wrong—right as they are trying to harm you?",
       "author": "MARCUS AURELIUS",
       "citation": "MEDITATIONS, 11.18.5.9a"
   },
@@ -968,7 +977,7 @@
   "05-18": {
       "theme": "RIGHT ACTION",
       "title": "HOW YOU DO ANYTHING IS HOW YOU DO EVERYTHING",
-      "quote": "Pay attention to what's in front of you--the principle, the task, or what's being portrayed.",
+      "quote": "Pay attention to what's in front of you—the principle, the task, or what's being portrayed.",
       "author": "MARCUS AURELIUS",
       "citation": "MEDITATIONS, 8.22"
   },
@@ -996,14 +1005,26 @@
   "05-22": {
       "theme": "RIGHT ACTION",
       "title": "TODAY IS THE DAY",
-      "quote": "You get what you deserve. Instead of being a good person today, you choose instead to become one tomorrow.\" \"I don't complain about the lack of time . . . what little I have will go far enough. Today--this day--will achieve what no tomorrow will fail to speak about. I will lay siege to the gods and shake up the world.",
-      "author": "SENECA",
-      "citation": "MEDEA, 423-425"
+      "quote": "You get what you deserve. Instead of being a good person today, you choose instead to become one tomorrow.",
+      "author": "MARCUS AURELIUS",
+      "citation": "MEDITATIONS, 8.22",
+      "quotes": [
+          {
+              "text": "You get what you deserve. Instead of being a good person today, you choose instead to become one tomorrow.",
+              "author": "MARCUS AURELIUS",
+              "citation": "MEDITATIONS, 8.22"
+          },
+          {
+              "text": "I don’t complain about the lack of time . . . what little I have will go far enough. Today—this day—will achieve what no tomorrow will fail to speak about. I will lay siege to the gods and shake up the world.",
+              "author": "SENECA",
+              "citation": "MEDEA, 423–425"
+          }
+      ]
   },
   "05-23": {
       "theme": "RIGHT ACTION",
       "title": "SHOW ME HOW TO LIVE",
-      "quote": "Show me that the good life doesn't consist in its length, but in its use, and that it is possible--no, entirely too common--for a person who has had a long life to have lived too little.",
+      "quote": "Show me that the good life doesn't consist in its length, but in its use, and that it is possible—no, entirely too common—for a person who has had a long life to have lived too little.",
       "author": "SENECA",
       "citation": "MORAL LETTERS, 49.10b"
   },
@@ -1038,7 +1059,7 @@
   "05-28": {
       "theme": "RIGHT ACTION",
       "title": "THE FIRST TWO THINGS BEFORE ACTING",
-      "quote": "The first thing to do--don't get worked up. For everything happens according to the nature of all things, and in a short time you'll be nobody and nowhere, even as the great emperors Hadrian and Augustus are now. The next thing to do--consider carefully the task at hand for what it is, while remembering that your purpose is to be a good human being. Get straight to doing what nature requires of you, and speak as you see most just and fitting--with kindness, modesty, and sincerity.",
+      "quote": "The first thing to do—don't get worked up. For everything happens according to the nature of all things, and in a short time you'll be nobody and nowhere, even as the great emperors Hadrian and Augustus are now. The next thing to do—consider carefully the task at hand for what it is, while remembering that your purpose is to be a good human being. Get straight to doing what nature requires of you, and speak as you see most just and fitting—with kindness, modesty, and sincerity.",
       "author": "MARCUS AURELIUS",
       "citation": "MEDITATIONS, 8.5"
   },
@@ -1066,14 +1087,14 @@
   "06-01": {
       "theme": "PROBLEM SOLVING",
       "title": "ALWAYS HAVE A MENTAL REVERSE CLAUSE",
-      "quote": "Indeed, no one can thwart the purposes of your mind--for they can't be touched by fire, steel, tyranny, slander, or anything.",
+      "quote": "Indeed, no one can thwart the purposes of your mind—for they can't be touched by fire, steel, tyranny, slander, or anything.",
       "author": "MARCUS AURELIUS",
       "citation": "MEDITATIONS, 8.41"
   },
   "06-02": {
       "theme": "PROBLEM SOLVING",
       "title": "PLATO'S VIEW",
-      "quote": "How beautifully Plato put it. Whenever you want to talk about people, it's best to take a bird's- eye view and see everything all at once--of gatherings, armies, farms, weddings and divorces, births and deaths, noisy courtrooms or silent spaces, every foreign people, holidays, memorials, markets--all blended together and arranged in a pairing of opposites.",
+      "quote": "How beautifully Plato put it. Whenever you want to talk about people, it's best to take a bird's- eye view and see everything all at once—of gatherings, armies, farms, weddings and divorces, births and deaths, noisy courtrooms or silent spaces, every foreign people, holidays, memorials, markets—all blended together and arranged in a pairing of opposites.",
       "author": "MARCUS AURELIUS",
       "citation": "MEDITATIONS, 7.48"
   },
@@ -1108,28 +1129,28 @@
   "06-07": {
       "theme": "PROBLEM SOLVING",
       "title": "FINDING THE RIGHT MENTORS",
-      "quote": "We like to say that we don't get to choose our parents, that they were given by chance--yet we can truly choose whose children we'd like to be.",
+      "quote": "We like to say that we don't get to choose our parents, that they were given by chance—yet we can truly choose whose children we'd like to be.",
       "author": "SENECA",
       "citation": "ON THE BREVITY OF LIFE, 15.3a"
   },
   "06-08": {
       "theme": "PROBLEM SOLVING",
       "title": "BRICK BY BORING BRICK",
-      "quote": "You must build up your life action by action, and be content if each one achieves its goal as far as possible--and no one can keep you from this. But there will be some external obstacle! Perhaps, but no obstacle to acting with justice, self-control, and wisdom. But what if some other area of my action is thwarted? Well, gladly accept the obstacle for what it is and shift your attention to what is given, and another action will immediately take its place, one that better fits the life you are building.",
+      "quote": "You must build up your life action by action, and be content if each one achieves its goal as far as possible—and no one can keep you from this. But there will be some external obstacle! Perhaps, but no obstacle to acting with justice, self-control, and wisdom. But what if some other area of my action is thwarted? Well, gladly accept the obstacle for what it is and shift your attention to what is given, and another action will immediately take its place, one that better fits the life you are building.",
       "author": "MARCUS AURELIUS",
       "citation": "MEDITATIONS, 8.32"
   },
   "06-09": {
       "theme": "PROBLEM SOLVING",
       "title": "SOLVE PROBLEMS EARLY",
-      "quote": "There is no vice which lacks a defense, none that at the outset isn't modest and easily intervened --but after this the trouble spreads widely. If you allow it to get started you won't be able to control when it stops. Every emotion is at first weak. Later it rouses itself and gathers strength as it moves along--it's easier to slow it down than to supplant it.",
+      "quote": "There is no vice which lacks a defense, none that at the outset isn't modest and easily intervened —but after this the trouble spreads widely. If you allow it to get started you won't be able to control when it stops. Every emotion is at first weak. Later it rouses itself and gathers strength as it moves along—it's easier to slow it down than to supplant it.",
       "author": "SENECA",
       "citation": "MORAL LETTERS, 106.2b-3a"
   },
   "06-10": {
       "theme": "PROBLEM SOLVING",
       "title": "YOU CAN DO IT",
-      "quote": "If you find something very difficult to achieve yourself, don't imagine it impossible--for anything possible and proper for another person can be achieved as easily by you.",
+      "quote": "If you find something very difficult to achieve yourself, don't imagine it impossible—for anything possible and proper for another person can be achieved as easily by you.",
       "author": "MARCUS AURELIUS",
       "citation": "MEDITATIONS, 6.19"
   },
@@ -1150,14 +1171,14 @@
   "06-13": {
       "theme": "PROBLEM SOLVING",
       "title": "LIFE IS A BATTLEFIELD",
-      "quote": "Don't you know life is like a military campaign? One must serve on watch, another in reconnaissance, another on the front line. . . . So it is for us--each person's life is a kind of battle, and a long and varied one too. You must keep watch like a soldier and do everything commanded. . . . You have been stationed in a key post, not some lowly place, and not for a short time but for life.",
+      "quote": "Don't you know life is like a military campaign? One must serve on watch, another in reconnaissance, another on the front line. . . . So it is for us—each person's life is a kind of battle, and a long and varied one too. You must keep watch like a soldier and do everything commanded. . . . You have been stationed in a key post, not some lowly place, and not for a short time but for life.",
       "author": "EPICTETUS",
       "citation": "DISCOURSES, 3.24.31-36"
   },
   "06-14": {
       "theme": "PROBLEM SOLVING",
       "title": "TRY THE OTHER HANDLE",
-      "quote": "Every event has two handles--one by which it can be carried, and one by which it can't. If your brother does you wrong, don't grab it by his wronging, because this is the handle incapable of lifting it. Instead, use the other--that he is your brother, that you were raised together, and then you will have hold of the handle that carries.",
+      "quote": "Every event has two handles—one by which it can be carried, and one by which it can't. If your brother does you wrong, don't grab it by his wronging, because this is the handle incapable of lifting it. Instead, use the other—that he is your brother, that you were raised together, and then you will have hold of the handle that carries.",
       "author": "EPICTETUS",
       "citation": "ENCHIRIDION, 43"
   },
@@ -1185,7 +1206,7 @@
   "06-18": {
       "theme": "PROBLEM SOLVING",
       "title": "PREPARED AND ACTIVE",
-      "quote": "Let Fate find us prepared and active. Here is the great soul--the one who surrenders to Fate. The opposite is the weak and degenerate one, who struggles with and has a poor regard for the order of the world, and seeks to correct the faults of the gods rather than their own.",
+      "quote": "Let Fate find us prepared and active. Here is the great soul—the one who surrenders to Fate. The opposite is the weak and degenerate one, who struggles with and has a poor regard for the order of the world, and seeks to correct the faults of the gods rather than their own.",
       "author": "SENECA",
       "citation": "MORAL LETTERS, 107.12"
   },
@@ -1220,14 +1241,14 @@
   "06-23": {
       "theme": "PROBLEM SOLVING",
       "title": "THE LONG WAY AROUND",
-      "quote": "You could enjoy this very moment all the things you are praying to reach by taking the long way around--if you'd stop depriving yourself of them.",
+      "quote": "You could enjoy this very moment all the things you are praying to reach by taking the long way around—if you'd stop depriving yourself of them.",
       "author": "MARCUS AURELIUS",
       "citation": "MEDITATIONS, 12.1"
   },
   "06-24": {
       "theme": "PROBLEM SOLVING",
       "title": "THE TRULY EDUCATED AREN'T QUARRELSOME",
-      "quote": "The beautiful and good person neither fights with anyone nor, as much as they are able, permits others to fight . . . this is the meaning of getting an education--learning what is your own affair and what is not. If a person carries themselves so, where is there any room for fighting?",
+      "quote": "The beautiful and good person neither fights with anyone nor, as much as they are able, permits others to fight . . . this is the meaning of getting an education—learning what is your own affair and what is not. If a person carries themselves so, where is there any room for fighting?",
       "author": "EPICTETUS",
       "citation": "DISCOURSES, 4.5.1; 7b-8a"
   },
@@ -1248,21 +1269,21 @@
   "06-27": {
       "theme": "PROBLEM SOLVING",
       "title": "ADVERSITY REVEALS",
-      "quote": "How does it help, my husband, to make misfortune heavier by complaining about it? This is more fit for a king--to seize your adversities head on. The more precarious his situation, the more imminent his fall from power, the more firmly he should be resolved to stand and fight. It isn't manly to retreat from fortune.",
+      "quote": "How does it help, my husband, to make misfortune heavier by complaining about it? This is more fit for a king—to seize your adversities head on. The more precarious his situation, the more imminent his fall from power, the more firmly he should be resolved to stand and fight. It isn't manly to retreat from fortune.",
       "author": "SENECA",
       "citation": "OEDIPUS, 80"
   },
   "06-28": {
       "theme": "PROBLEM SOLVING",
       "title": "NO SELF-FLAGELLATION NEEDED",
-      "quote": "Philosophy calls for simple living, but not for penance--it's quite possible to be simple without being crude.",
+      "quote": "Philosophy calls for simple living, but not for penance—it's quite possible to be simple without being crude.",
       "author": "SENECA",
       "citation": "MORAL LETTERS, 5.5"
   },
   "06-29": {
       "theme": "PROBLEM SOLVING",
       "title": "NO EXCUSES",
-      "quote": "It is possible to curb your arrogance, to overcome pleasure and pain, to rise above your ambition, and to not be angry with stupid and ungrateful people--yes, even to care for them.",
+      "quote": "It is possible to curb your arrogance, to overcome pleasure and pain, to rise above your ambition, and to not be angry with stupid and ungrateful people—yes, even to care for them.",
       "author": "MARCUS AURELIUS",
       "citation": "MEDITATIONS, 8.8"
   },
@@ -1311,14 +1332,14 @@
   "07-06": {
       "theme": "DUTY",
       "title": "RISE AND SHINE",
-      "quote": "On those mornings you struggle with getting up, keep this thought in mind--I am awakening to the work of a human being. Why then am I annoyed that I am going to do what I'm made for, the very things for which I was put into this world? Or was I made for this, to snuggle under the covers and keep warm? It's so pleasurable. Were you then made for pleasure? In short, to be coddled or to exert yourself?",
+      "quote": "On those mornings you struggle with getting up, keep this thought in mind—I am awakening to the work of a human being. Why then am I annoyed that I am going to do what I'm made for, the very things for which I was put into this world? Or was I made for this, to snuggle under the covers and keep warm? It's so pleasurable. Were you then made for pleasure? In short, to be coddled or to exert yourself?",
       "author": "MARCUS AURELIUS",
       "citation": "MEDITATIONS, 5.1"
   },
   "07-07": {
       "theme": "DUTY",
       "title": "OUR DUTY TO LEARN",
-      "quote": "This is what you should teach me, how to be like Odysseus--how to love my country, wife and father, and how, even after suffering shipwreck, I might keep sailing on course to those honorable ends.",
+      "quote": "This is what you should teach me, how to be like Odysseus—how to love my country, wife and father, and how, even after suffering shipwreck, I might keep sailing on course to those honorable ends.",
       "author": "SENECA",
       "citation": "MORAL LETTERS, 88.7b"
   },
@@ -1374,7 +1395,7 @@
   "07-15": {
       "theme": "DUTY",
       "title": "DOING THE RIGHT THING IS ENOUGH",
-      "quote": "When you've done well and another has benefited by it, why like a fool do you look for a third thing on top--credit for the good deed or a favor in return?",
+      "quote": "When you've done well and another has benefited by it, why like a fool do you look for a third thing on top—credit for the good deed or a favor in return?",
       "author": "MARCUS AURELIUS",
       "citation": "MEDITATIONS, 7.73"
   },
@@ -1388,7 +1409,7 @@
   "07-17": {
       "theme": "DUTY",
       "title": "DON'T ABANDON OTHERS . . . OR YOURSELF",
-      "quote": "As you move forward along the path of reason, people will stand in your way. They will never be able to keep you from doing what's sound, so don't let them knock out your goodwill for them. Keep a steady watch on both fronts, not only for well-based judgments and actions, but also for gentleness with those who would obstruct our path or create other difficulties. For getting angry is also a weakness, just as much as abandoning the task or surrendering under panic. For doing either is an equal desertion--the one by shrinking back and the other by estrangement from family and friend.",
+      "quote": "As you move forward along the path of reason, people will stand in your way. They will never be able to keep you from doing what's sound, so don't let them knock out your goodwill for them. Keep a steady watch on both fronts, not only for well-based judgments and actions, but also for gentleness with those who would obstruct our path or create other difficulties. For getting angry is also a weakness, just as much as abandoning the task or surrendering under panic. For doing either is an equal desertion—the one by shrinking back and the other by estrangement from family and friend.",
       "author": "MARCUS AURELIUS",
       "citation": "MEDITATIONS, 11.9"
   },
@@ -1437,7 +1458,7 @@
   "07-24": {
       "theme": "DUTY",
       "title": "SOMEWHERE SOMEONE'S DYING",
-      "quote": "Whenever disturbing news is delivered to you, bear in mind that no news can ever be relevant to your reasoned choice. Can anyone break news to you that your assumptions or desires are wrong? No way! But they can tell you someone died--even so, what is that to you?",
+      "quote": "Whenever disturbing news is delivered to you, bear in mind that no news can ever be relevant to your reasoned choice. Can anyone break news to you that your assumptions or desires are wrong? No way! But they can tell you someone died—even so, what is that to you?",
       "author": "EPICTETUS",
       "citation": "DISCOURSES, 3.17.1-2"
   },
@@ -1458,21 +1479,21 @@
   "07-27": {
       "theme": "DUTY",
       "title": "WHERE IS ANYTHING BETTER?",
-      "quote": "Indeed, if you find anything in human life better than justice, truth, self-control, courage--in short, anything better than the sufficiency of your own mind, which keeps you acting according to the demands of true reason and accepting what fate gives you outside of your own power of choice--I tell you, if you can see anything better than this, turn to it heart and soul and take full advantage of this greater good you've found.",
+      "quote": "Indeed, if you find anything in human life better than justice, truth, self-control, courage—in short, anything better than the sufficiency of your own mind, which keeps you acting according to the demands of true reason and accepting what fate gives you outside of your own power of choice—I tell you, if you can see anything better than this, turn to it heart and soul and take full advantage of this greater good you've found.",
       "author": "MARCUS AURELIUS",
       "citation": "MEDITATIONS, 3.6.1"
   },
   "07-28": {
       "theme": "DUTY",
       "title": "CHECK YOUR PRIVILEGE",
-      "quote": "Some people are sharp and others dull; some are raised in a better environment, others in worse, the latter, having inferior habits and nurture, will require more by way of proof and careful instruction to master these teachings and to be formed by them--in the same way that bodies in a bad state must be given a great deal of care when perfect health is sought.",
+      "quote": "Some people are sharp and others dull; some are raised in a better environment, others in worse, the latter, having inferior habits and nurture, will require more by way of proof and careful instruction to master these teachings and to be formed by them—in the same way that bodies in a bad state must be given a great deal of care when perfect health is sought.",
       "author": "MUSONIUS RUFUS",
       "citation": "LECTURES, 1.1.33-1.3.1-3."
   },
   "07-29": {
       "theme": "DUTY",
       "title": "A CURE FOR THE SELF",
-      "quote": "The person who has practiced philosophy as a cure for the self becomes great of soul, filled with confidence, invincible--and greater as you draw near.",
+      "quote": "The person who has practiced philosophy as a cure for the self becomes great of soul, filled with confidence, invincible—and greater as you draw near.",
       "author": "SENECA",
       "citation": " MORAL LETTERS, 111.2"
   },
@@ -1507,7 +1528,7 @@
   "08-03": {
       "theme": "PRAGMATISM",
       "title": "THE GOOD LIFE IS ANYWHERE",
-      "quote": "At this moment you aren't on a journey, but wandering about, being driven from place to place, even though what you seek--to live well--is found in all places. Is there any place more full of confusion than the Forum? Yet even there you can live at peace, if needed.",
+      "quote": "At this moment you aren't on a journey, but wandering about, being driven from place to place, even though what you seek—to live well—is found in all places. Is there any place more full of confusion than the Forum? Yet even there you can live at peace, if needed.",
       "author": "SENECA",
       "citation": "MORAL LETTERS, 28.5b-6a"
   },
@@ -1528,7 +1549,7 @@
   "08-06": {
       "theme": "PRAGMATISM",
       "title": "THERE IS ALWAYS MORE ROOM TO MANEUVER THAN YOU THINK",
-      "quote": "Apply yourself to thinking through difficulties--hard times can be softened, tight squeezes widened, and heavy loads made lighter for those who can apply the right pressure.",
+      "quote": "Apply yourself to thinking through difficulties—hard times can be softened, tight squeezes widened, and heavy loads made lighter for those who can apply the right pressure.",
       "author": "SENECA",
       "citation": "ON TRANQUILITY OF MIND, 10.4b"
   },
@@ -1549,7 +1570,7 @@
   "08-09": {
       "theme": "PRAGMATISM",
       "title": "STICK WITH JUST THE FACTS",
-      "quote": "Don't tell yourself anything more than what the initial impressions report. It's been reported to you that someone is speaking badly about you. This is the report--the report wasn't that you've been harmed. I see that my son is sick--but not that his life is at risk. So always stay within your first impressions, and don't add to them in your head--this way nothing can happen to you.",
+      "quote": "Don't tell yourself anything more than what the initial impressions report. It's been reported to you that someone is speaking badly about you. This is the report—the report wasn't that you've been harmed. I see that my son is sick—but not that his life is at risk. So always stay within your first impressions, and don't add to them in your head—this way nothing can happen to you.",
       "author": "MARCUS AURELIUS",
       "citation": "MEDITATIONS, 8.49"
   },
@@ -1563,28 +1584,28 @@
   "08-11": {
       "theme": "PRAGMATISM",
       "title": "NO TIME FOR THEORIES, JUST RESULTS",
-      "quote": "When the problem arose for us whether habit or theory was better for getting virtue--if by theory is meant what teaches us correct conduct, and by habit we mean being accustomed to act according to this theory--Musonius thought habit to be more effective.",
+      "quote": "When the problem arose for us whether habit or theory was better for getting virtue—if by theory is meant what teaches us correct conduct, and by habit we mean being accustomed to act according to this theory—Musonius thought habit to be more effective.",
       "author": "MUSONIUS RUFUS",
       "citation": "LECTURES, 5.17.31-32, 5.19.1-2"
   },
   "08-12": {
       "theme": "PRAGMATISM",
       "title": "MAKE THE WORDS YOUR OWN",
-      "quote": "Many words have been spoken by Plato, Zeno, Chrysippus, Posidonius, and by a whole host of equally excellent Stoics. I'll tell you how people can prove their words to be their own--by putting into practice what they've been preaching.",
+      "quote": "Many words have been spoken by Plato, Zeno, Chrysippus, Posidonius, and by a whole host of equally excellent Stoics. I'll tell you how people can prove their words to be their own—by putting into practice what they've been preaching.",
       "author": "SENECA",
       "citation": "MORAL LETTERS, 108.35; 38"
   },
   "08-13": {
       "theme": "PRAGMATISM",
       "title": "TAKE CHARGE AND END YOUR TROUBLES",
-      "quote": "You've endured countless troubles--all from not letting your ruling reason do the work it was made for--enough already!",
+      "quote": "You've endured countless troubles—all from not letting your ruling reason do the work it was made for—enough already!",
       "author": "MARCUS AURELIUS",
       "citation": "MEDITATIONS, 9.26"
   },
   "08-14": {
       "theme": "PRAGMATISM",
       "title": "THIS ISN'T FOR FUN. IT'S FOR LIFE",
-      "quote": "Philosophy isn't a parlor trick or made for show. It's not concerned with words, but with facts. It's not employed for some pleasure before the day is spent, or to relieve the uneasiness of our leisure. It shapes and builds up the soul, it gives order to life, guides action, shows what should and shouldn't be done--it sits at the rudder steering our course as we vacillate in uncertainties. Without it, no one can live without fear or free from care. Countless things happen every hour that require advice, and such advice is to be sought out in philosophy.",
+      "quote": "Philosophy isn't a parlor trick or made for show. It's not concerned with words, but with facts. It's not employed for some pleasure before the day is spent, or to relieve the uneasiness of our leisure. It shapes and builds up the soul, it gives order to life, guides action, shows what should and shouldn't be done—it sits at the rudder steering our course as we vacillate in uncertainties. Without it, no one can live without fear or free from care. Countless things happen every hour that require advice, and such advice is to be sought out in philosophy.",
       "author": "SENECA",
       "citation": "MORAL LETTERS, 16.3"
   },
@@ -1598,21 +1619,21 @@
   "08-16": {
       "theme": "PRAGMATISM",
       "title": "ANYTHING CAN BE AN ADVANTAGE",
-      "quote": "Just as the nature of rational things has given to each person their rational powers, so it also gives us this power--just as nature turns to its own purpose any obstacle or any opposition, sets its place in the destined order, and co-opts it, so every rational person can convert any obstacle into the raw material for their own purpose.",
+      "quote": "Just as the nature of rational things has given to each person their rational powers, so it also gives us this power—just as nature turns to its own purpose any obstacle or any opposition, sets its place in the destined order, and co-opts it, so every rational person can convert any obstacle into the raw material for their own purpose.",
       "author": "MARCUS AURELIUS",
       "citation": "MEDITATIONS, 8.35"
   },
   "08-17": {
       "theme": "PRAGMATISM",
       "title": "THE BUCK STOPS HERE",
-      "quote": "For nothing outside my reasoned choice can hinder or harm it--my reasoned choice alone can do this to itself. If we would lean this way whenever we fail, and would blame only ourselves and remember that nothing but opinion is the cause of a troubled mind and uneasiness, then by God, I swear we would be making progress.",
+      "quote": "For nothing outside my reasoned choice can hinder or harm it—my reasoned choice alone can do this to itself. If we would lean this way whenever we fail, and would blame only ourselves and remember that nothing but opinion is the cause of a troubled mind and uneasiness, then by God, I swear we would be making progress.",
       "author": "EPICTETUS",
       "citation": "DISCOURSES, 3.19.2-3"
   },
   "08-18": {
       "theme": "PRAGMATISM",
       "title": "ONLY FOOLS RUSH IN",
-      "quote": "A good person is invincible, for they don't rush into contests in which they aren't the strongest. If you want their property, take it--take also their staff, profession, and body. But you will never compel what they set out for, nor trap them in what they would avoid. For the only contest the good person enters is that of their own reasoned choice. How can such a person not be invincible?",
+      "quote": "A good person is invincible, for they don't rush into contests in which they aren't the strongest. If you want their property, take it—take also their staff, profession, and body. But you will never compel what they set out for, nor trap them in what they would avoid. For the only contest the good person enters is that of their own reasoned choice. How can such a person not be invincible?",
       "author": "EPICTETUS",
       "citation": "DISCOURSES, 3.6.5-7"
   },
@@ -1633,7 +1654,7 @@
   "08-21": {
       "theme": "PRAGMATISM",
       "title": "DON'T BE MISERABLE IN ADVANCE",
-      "quote": "It's ruinous for the soul to be anxious about the future and miserable in advance of misery, engulfed by anxiety that the things it desires might remain its own until the very end. For such a soul will never be at rest--by longing for things to come it will lose the ability to enjoy present things.",
+      "quote": "It's ruinous for the soul to be anxious about the future and miserable in advance of misery, engulfed by anxiety that the things it desires might remain its own until the very end. For such a soul will never be at rest—by longing for things to come it will lose the ability to enjoy present things.",
       "author": "SENECA",
       "citation": "MORAL LETTERS, 98.5b-6a"
   },
@@ -1647,7 +1668,7 @@
   "08-23": {
       "theme": "PRAGMATISM",
       "title": "IT'S IN YOUR SELF-INTEREST",
-      "quote": "Therefore, explain why a wise person shouldn't get drunk--not with words, but by the facts of its ugliness and offensiveness. It's most easy to prove that so-called pleasures, when they go beyond proper measure, are but punishments.",
+      "quote": "Therefore, explain why a wise person shouldn't get drunk—not with words, but by the facts of its ugliness and offensiveness. It's most easy to prove that so-called pleasures, when they go beyond proper measure, are but punishments.",
       "author": "SENECA",
       "citation": "MORAL LETTERS, 83.27"
   },
@@ -1668,14 +1689,14 @@
   "08-26": {
       "theme": "PRAGMATISM",
       "title": "SEEKING OUT SHIPWRECKS",
-      "quote": "I was shipwrecked before I even boarded . . . the journey showed me this--how much of what we have is unnecessary, and how easily we can decide to rid ourselves of these things whenever it's necessary, never suffering the loss.",
+      "quote": "I was shipwrecked before I even boarded . . . the journey showed me this—how much of what we have is unnecessary, and how easily we can decide to rid ourselves of these things whenever it's necessary, never suffering the loss.",
       "author": "SENECA",
       "citation": "MORAL LETTERS, 87.1"
   },
   "08-27": {
       "theme": "PRAGMATISM",
       "title": "LAUGH, OR CRY?",
-      "quote": "Heraclitus would shed tears whenever he went out in public--Democritus laughed. One saw the whole as a parade of miseries, the other of follies. And so, we should take a lighter view of things and bear them with an easy spirit, for it is more human to laugh at life than to lament it.",
+      "quote": "Heraclitus would shed tears whenever he went out in public—Democritus laughed. One saw the whole as a parade of miseries, the other of follies. And so, we should take a lighter view of things and bear them with an easy spirit, for it is more human to laugh at life than to lament it.",
       "author": "SENECA",
       "citation": "ON TRANQUILITY OF MIND, 15.2"
   },
@@ -1703,21 +1724,21 @@
   "08-31": {
       "theme": "PRAGMATISM",
       "title": "CONSIDER YOUR FAILINGS TOO",
-      "quote": "Whenever you take offense at someone's wrongdoing, immediately turn to your own similar failings, such as seeing money as good, or pleasure, or a little fame--whatever form it takes. By thinking on this, you'll quickly forget your anger, considering also what compels them--for what else could they do? Or, if you are able, remove their compulsion.",
+      "quote": "Whenever you take offense at someone's wrongdoing, immediately turn to your own similar failings, such as seeing money as good, or pleasure, or a little fame—whatever form it takes. By thinking on this, you'll quickly forget your anger, considering also what compels them—for what else could they do? Or, if you are able, remove their compulsion.",
       "author": "MARCUS AURELIUS",
       "citation": "MEDITATIONS, 10.30"
   },
   "09-01": {
       "theme": "FORTITUDE AND RESILIENCE",
       "title": "A STRONG SOUL IS BETTER THAN GOOD LUCK",
-      "quote": "The rational soul is stronger than any kind of fortune--from its own share it guides its affairs here or there, and is itself the cause of a happy or miserable life.",
+      "quote": "The rational soul is stronger than any kind of fortune—from its own share it guides its affairs here or there, and is itself the cause of a happy or miserable life.",
       "author": "SENECA",
       "citation": "MORAL LETTERS, 98.2b"
   },
   "09-02": {
       "theme": "FORTITUDE AND RESILIENCE",
       "title": "THE PHILOSOPHER'S SCHOOL IS A HOSPITAL",
-      "quote": "Men, the philosopher's lecture-hall is a hospital--you shouldn't walk out of it feeling pleasure, but pain, for you aren't well when you enter it.",
+      "quote": "Men, the philosopher's lecture-hall is a hospital—you shouldn't walk out of it feeling pleasure, but pain, for you aren't well when you enter it.",
       "author": "EPICTETUS",
       "citation": "DISCOURSES, 3.23.30"
   },
@@ -1731,7 +1752,7 @@
   "09-04": {
       "theme": "FORTITUDE AND RESILIENCE",
       "title": "HOW CAN YOU KNOW WHETHER YOU'VE NEVER BEEN TESTED?",
-      "quote": "I judge you unfortunate because you have never lived through misfortune. You have passed through life without an opponent--no one can ever know what you are capable of, not even you.",
+      "quote": "I judge you unfortunate because you have never lived through misfortune. You have passed through life without an opponent—no one can ever know what you are capable of, not even you.",
       "author": "SENECA",
       "citation": "ON PROVIDENCE, 4.3"
   },
@@ -1794,7 +1815,7 @@
   "09-13": {
       "theme": "FORTITUDE AND RESILIENCE",
       "title": "PROTECTING OUR INNER FORTRESS FROM FEAR",
-      "quote": "No, it is events that give rise to fear--when another has power over them or can prevent them, that person becomes able to inspire fear. How is the fortress destroyed? Not by iron or fire, but by judgments . . . here is where we must begin, and it is from this front that we must seize the fortress and throw out the tyrants.",
+      "quote": "No, it is events that give rise to fear—when another has power over them or can prevent them, that person becomes able to inspire fear. How is the fortress destroyed? Not by iron or fire, but by judgments . . . here is where we must begin, and it is from this front that we must seize the fortress and throw out the tyrants.",
       "author": "EPICTETUS",
       "citation": "DISCOURSES, 4.1.85-86; 87a"
   },
@@ -1808,7 +1829,7 @@
   "09-15": {
       "theme": "FORTITUDE AND RESILIENCE",
       "title": "A GARDEN IS NOT FOR SHOW",
-      "quote": "First practice not letting people know who you are--keep your philosophy to yourself for a bit. In just the manner that fruit is produced--the seed buried for a season, hidden, growing gradually so it may come to full maturity. But if the grain sprouts before the stalk is fully developed, it will never ripen. . . . That is the kind of plant you are, displaying fruit too soon, and the winter will kill you.",
+      "quote": "First practice not letting people know who you are—keep your philosophy to yourself for a bit. In just the manner that fruit is produced—the seed buried for a season, hidden, growing gradually so it may come to full maturity. But if the grain sprouts before the stalk is fully developed, it will never ripen. . . . That is the kind of plant you are, displaying fruit too soon, and the winter will kill you.",
       "author": "EPICTETUS",
       "citation": "DISCOURSES, 4.8.35b-37"
   },
@@ -1836,7 +1857,7 @@
   "09-19": {
       "theme": "FORTITUDE AND RESILIENCE",
       "title": "FLEXIBILITY OF THE WILL",
-      "quote": "Remember that to change your mind and to follow someone's correction are consistent with a free will. For the action is yours alone--to fulfill its purpose in keeping with your impulse and judgment, and yes, with your intelligence.",
+      "quote": "Remember that to change your mind and to follow someone's correction are consistent with a free will. For the action is yours alone—to fulfill its purpose in keeping with your impulse and judgment, and yes, with your intelligence.",
       "author": "MARCUS AURELIUS",
       "citation": "MEDITATIONS, 8.16"
   },
@@ -1864,7 +1885,7 @@
   "09-23": {
       "theme": "FORTITUDE AND RESILIENCE",
       "title": "THE MOST SECURE FORTRESS",
-      "quote": "Remember that your ruling reason becomes unconquerable when it rallies and relies on itself, so that it won't do anything contrary to its own will, even if its position is irrational. How much more unconquerable if its judgments are careful and made rationally? Therefore, the mind freed from passions is an impenetrable fortress--a person has no more secure place of refuge for all time.",
+      "quote": "Remember that your ruling reason becomes unconquerable when it rallies and relies on itself, so that it won't do anything contrary to its own will, even if its position is irrational. How much more unconquerable if its judgments are careful and made rationally? Therefore, the mind freed from passions is an impenetrable fortress—a person has no more secure place of refuge for all time.",
       "author": "MARCUS AURELIUS",
       "citation": "MEDITATIONS, 8.48"
   },
@@ -1885,21 +1906,21 @@
   "09-26": {
       "theme": "FORTITUDE AND RESILIENCE",
       "title": "WHAT TIME OFF IS FOR",
-      "quote": "Leisure without study is death--a tomb for the living person.",
+      "quote": "Leisure without study is death—a tomb for the living person.",
       "author": "SENECA",
       "citation": "MORAL LETTERS, 82.4"
   },
   "09-27": {
       "theme": "FORTITUDE AND RESILIENCE",
       "title": "WHAT WILL PROSPERITY REVEAL?",
-      "quote": "For even peace itself will supply more reason for worry. Not even safe circumstances will bring you confidence once your mind has been shocked--once it gets in the habit of blind panic, it can't provide for its own safety. For it doesn't really avoid danger, it just runs away. Yet we are exposed to greater danger with our backs turned.",
+      "quote": "For even peace itself will supply more reason for worry. Not even safe circumstances will bring you confidence once your mind has been shocked—once it gets in the habit of blind panic, it can't provide for its own safety. For it doesn't really avoid danger, it just runs away. Yet we are exposed to greater danger with our backs turned.",
       "author": "SENECA",
       "citation": "MORAL LETTERS, 104.10b"
   },
   "09-28": {
       "theme": "FORTITUDE AND RESILIENCE",
       "title": "YOU HOLD THE TRUMP CARD",
-      "quote": "How appropriate that the gods put under our control only the most powerful ability that governs all the rest--the ability to make the right use of external appearances--and that they didn't put anything else under our control. Was this simply because they weren't willing to give us more? I think if it had been possible they would have given us more, but it was impossible.",
+      "quote": "How appropriate that the gods put under our control only the most powerful ability that governs all the rest—the ability to make the right use of external appearances—and that they didn't put anything else under our control. Was this simply because they weren't willing to give us more? I think if it had been possible they would have given us more, but it was impossible.",
       "author": "EPICTETUS",
       "citation": "DISCOURSES, 1.1.7-8"
   },
@@ -1934,7 +1955,7 @@
   "10-03": {
       "theme": "VIRTUE AND KINDNESS",
       "title": "A MANTRA OF MUTUAL INTERDEPENDENCE",
-      "quote": "Meditate often on the interconnectedness and mutual interdependence of all things in the universe. For in a sense, all things are mutually woven together and therefore have an affinity for each other--for one thing follows after another according to their tension of movement, their sympathetic stirrings, and the unity of all substance.",
+      "quote": "Meditate often on the interconnectedness and mutual interdependence of all things in the universe. For in a sense, all things are mutually woven together and therefore have an affinity for each other—for one thing follows after another according to their tension of movement, their sympathetic stirrings, and the unity of all substance.",
       "author": "MARCUS AURELIUS",
       "citation": "MEDITATIONS, 6.38"
   },
@@ -1962,14 +1983,14 @@
   "10-07": {
       "theme": "VIRTUE AND KINDNESS",
       "title": "A SELFISH REASON TO BE GOOD",
-      "quote": "The person who does wrong, does wrong to themselves. The unjust person is unjust to themselves--making themselves evil.",
+      "quote": "The person who does wrong, does wrong to themselves. The unjust person is unjust to themselves—making themselves evil.",
       "author": "MARCUS AURELIUS",
       "citation": "MEDITATIONS, 9.4"
   },
   "10-08": {
       "theme": "VIRTUE AND KINDNESS",
       "title": "A HIGHER PLEASURE",
-      "quote": "Yes, getting your wish would have been so nice. But isn't that exactly why pleasure trips us up? Instead, see if these things might be even nicer--a great soul, freedom, honesty, kindness, saintliness. For there is nothing so pleasing as wisdom itself, when you consider how sure- footed and effortless the works of understanding and knowledge are.",
+      "quote": "Yes, getting your wish would have been so nice. But isn't that exactly why pleasure trips us up? Instead, see if these things might be even nicer—a great soul, freedom, honesty, kindness, saintliness. For there is nothing so pleasing as wisdom itself, when you consider how sure- footed and effortless the works of understanding and knowledge are.",
       "author": "MARCUS AURELIUS",
       "citation": "MEDITATIONS, 5.9"
   },
@@ -1990,23 +2011,35 @@
   "10-11": {
       "theme": "VIRTUE AND KINDNESS",
       "title": "HONESTY AS OUR DEFAULT",
-      "quote": "How rotten and fraudulent when people say they intend to 'give it to you straight.' What are you up to, dear friend? It shouldn't need your announcement, but be readily seen, as if written on your forehead, heard in the ring of your voice, a flash in your eyes--just as the beloved sees it all in the lover's glance. In short, the straightforward and good person should be like a smelly goat--you know when they are in the room with you.",
+      "quote": "How rotten and fraudulent when people say they intend to 'give it to you straight.' What are you up to, dear friend? It shouldn't need your announcement, but be readily seen, as if written on your forehead, heard in the ring of your voice, a flash in your eyes—just as the beloved sees it all in the lover's glance. In short, the straightforward and good person should be like a smelly goat—you know when they are in the room with you.",
       "author": "MARCUS AURELIUS",
       "citation": "MEDITATIONS, 11.15"
   },
   "10-12": {
       "theme": "VIRTUE AND KINDNESS",
       "title": "ALWAYS LOVE",
-      "quote": "Hecato says, 'I can teach you a love potion made without any drugs, herbs, or special spell--if you would be loved, love.'",
+      "quote": "Hecato says, 'I can teach you a love potion made without any drugs, herbs, or special spell—if you would be loved, love.'",
       "author": "SENECA",
       "citation": "MORAL LETTERS, 9.6"
   },
   "10-13": {
       "theme": "VIRTUE AND KINDNESS",
       "title": "REVENGE IS A DISH BEST NOT SERVED",
-      "quote": "The best way to avenge yourself is to not be like that.\" \"How much better to heal than seek revenge from injury. Vengeance wastes a lot of time and exposes you to many more injuries than the first that sparked it. Anger always outlasts hurt. Best to take the opposite course. Would anyone think it normal to return a kick to a mule or a bite to a dog?",
-      "author": "SENECA",
-      "citation": "ON ANGER, 3.27.2"
+      "quote": "The best way to avenge yourself is to not be like that.",
+      "author": "MARCUS AURELIUS",
+      "citation": "MEDITATIONS, 6.6",
+      "quotes": [
+          {
+              "text": "The best way to avenge yourself is to not be like that.",
+              "author": "MARCUS AURELIUS",
+              "citation": "MEDITATIONS, 6.6"
+          },
+          {
+              "text": "How much better to heal than seek revenge from injury. Vengeance wastes a lot of time and exposes you to many more injuries than the first that sparked it. Anger always outlasts hurt. Best to take the opposite course. Would anyone think it normal to return a kick to a mule or a bite to a dog?",
+              "author": "SENECA",
+              "citation": "ON ANGER, 3.27.2"
+          }
+      ]
   },
   "10-14": {
       "theme": "VIRTUE AND KINDNESS",
@@ -2053,14 +2086,14 @@
   "10-20": {
       "theme": "VIRTUE AND KINDNESS",
       "title": "MARKS OF THE GOOD LIFE",
-      "quote": "You have proof in the extent of your wanderings that you never found the art of living anywhere --not in logic, nor in wealth, fame, or in any indulgence. Nowhere. Where is it then? In doing what human nature demands. How is a person to do this? By having principles be the source of desire and action. What principles? Those to do with good and evil, indeed in the belief that there is no good for a human being except what creates justice, self-control, courage and freedom, and nothing evil except what destroys these things.",
+      "quote": "You have proof in the extent of your wanderings that you never found the art of living anywhere —not in logic, nor in wealth, fame, or in any indulgence. Nowhere. Where is it then? In doing what human nature demands. How is a person to do this? By having principles be the source of desire and action. What principles? Those to do with good and evil, indeed in the belief that there is no good for a human being except what creates justice, self-control, courage and freedom, and nothing evil except what destroys these things.",
       "author": "MARCUS AURELIUS",
       "citation": "MEDITATIONS, 8.1.(5)"
   },
   "10-21": {
       "theme": "VIRTUE AND KINDNESS",
       "title": "HEROES, HERE AND NOW",
-      "quote": "Such behavior! People don't want to praise their contemporaries whose lives they actually share, but hold great expectations for the praise of future generations--people they haven't met or ever will! This is akin to being upset that past generations didn't praise you.",
+      "quote": "Such behavior! People don't want to praise their contemporaries whose lives they actually share, but hold great expectations for the praise of future generations—people they haven't met or ever will! This is akin to being upset that past generations didn't praise you.",
       "author": "MARCUS AURELIUS",
       "citation": "MEDITATIONS, 6.18"
   },
@@ -2088,7 +2121,7 @@
   "10-25": {
       "theme": "VIRTUE AND KINDNESS",
       "title": "TWO TASKS",
-      "quote": "What, then, makes a person free from hindrance and self-determining? For wealth doesn't, neither does high-office, state or kingdom--rather, something else must be found . . . in the case of living, it is the knowledge of how to live.",
+      "quote": "What, then, makes a person free from hindrance and self-determining? For wealth doesn't, neither does high-office, state or kingdom—rather, something else must be found . . . in the case of living, it is the knowledge of how to live.",
       "author": "EPICTETUS",
       "citation": "DISCOURSES, 4.1.62-64"
   },
@@ -2137,14 +2170,26 @@
   "11-01": {
       "theme": "ACCEPTANCE",
       "title": "ACCEPTING WHAT IS",
-      "quote": "Don't seek for everything to happen as you wish it would, but rather wish that everything happens as it actually will--then your life will flow well.\" \"It is easy to praise providence for anything that may happen if you have two qualities: a complete view of what has actually happened in each instance and a sense of gratitude. Without gratitude what is the point of seeing, and without seeing what is the object of gratitude?",
+      "quote": "Don’t seek for everything to happen as you wish it would, but rather wish that everything happens as it actually will—then your life will flow well.",
       "author": "EPICTETUS",
-      "citation": "DISCOURSES, 1.6.1-2"
+      "citation": "ENCHIRIDION, 8",
+      "quotes": [
+          {
+              "text": "Don’t seek for everything to happen as you wish it would, but rather wish that everything happens as it actually will—then your life will flow well.",
+              "author": "EPICTETUS",
+              "citation": "ENCHIRIDION, 8"
+          },
+          {
+              "text": "It is easy to praise providence for anything that may happen if you have two qualities: a complete view of what has actually happened in each instance and a sense of gratitude. Without gratitude what is the point of seeing, and without seeing what is the object of gratitude?",
+              "author": "EPICTETUS",
+              "citation": "DISCOURSES, 1.6.1–2"
+          }
+      ]
   },
   "11-02": {
       "theme": "ACCEPTANCE",
       "title": "BINDING OUR WISHES TO WHAT WILL BE",
-      "quote": "But I haven't at any time been hindered in my will, nor forced against it. And how is this possible? I have bound up my choice to act with the will of God. God wills that I be sick, such is my will. He wills that I should choose something, so do I. He wills that I reach for something, or something be given to me --                         I wish for the same. What God doesn't will, I do not wish for.",
+      "quote": "But I haven't at any time been hindered in my will, nor forced against it. And how is this possible? I have bound up my choice to act with the will of God. God wills that I be sick, such is my will. He wills that I should choose something, so do I. He wills that I reach for something, or something be given to me —                         I wish for the same. What God doesn't will, I do not wish for.",
       "author": "EPICTETUS",
       "citation": "DISCOURSES, 4.1.89"
   },
@@ -2165,7 +2210,7 @@
   "11-05": {
       "theme": "ACCEPTANCE",
       "title": "A HIGHER POWER",
-      "quote": "This is the very thing which makes up the virtue of the happy person and a well-flowing life--when the affairs of life are in every way tuned to the harmony between the individual divine spirit and the will of the director of the universe.",
+      "quote": "This is the very thing which makes up the virtue of the happy person and a well-flowing life—when the affairs of life are in every way tuned to the harmony between the individual divine spirit and the will of the director of the universe.",
       "author": "CHRYSIPPUS, QUOTED IN DIOGENES LAERTIUS",
       "citation": "LIVES OF THE EMINENT PHILOSOPHERS, 7.1.88"
   },
@@ -2179,14 +2224,14 @@
   "11-07": {
       "theme": "ACCEPTANCE",
       "title": "HOW TO BE POWERFUL",
-      "quote": "Don't trust in your reputation, money, or position, but in the strength that is yours--namely, your judgments about the things that you control and don't control. For this alone is what makes us free and unfettered, that picks us up by the neck from the depths and lifts us eye to eye with the rich and powerful.",
+      "quote": "Don't trust in your reputation, money, or position, but in the strength that is yours—namely, your judgments about the things that you control and don't control. For this alone is what makes us free and unfettered, that picks us up by the neck from the depths and lifts us eye to eye with the rich and powerful.",
       "author": "EPICTETUS",
       "citation": "DISCOURSES, 3.26.34-35"
   },
   "11-08": {
       "theme": "ACCEPTANCE",
       "title": "ACTORS IN A PLAY",
-      "quote": "Remember that you are an actor in a play, playing a character according to the will of the playwright--if a short play, then it's short; if long, long. If he wishes you to play the beggar, play even that role well, just as you would if it were a cripple, a honcho, or an everyday person. For this is your duty, to perform well the character assigned you. That selection belongs to another.",
+      "quote": "Remember that you are an actor in a play, playing a character according to the will of the playwright—if a short play, then it's short; if long, long. If he wishes you to play the beggar, play even that role well, just as you would if it were a cripple, a honcho, or an everyday person. For this is your duty, to perform well the character assigned you. That selection belongs to another.",
       "author": "EPICTETUS",
       "citation": "ENCHIRIDION, 17"
   },
@@ -2235,7 +2280,11 @@
   "11-15": {
       "theme": "ACCEPTANCE",
       "title": "EVERYTHING IS CHANGE",
-      "quote": "Meditate often on the swiftness with which all that exists and is coming into being is swept by us and carried away. For substance is like a river's unending flow, its activities continually changing and causes infinitely shifting so that almost nothing at all stands still.",
+      "quote": [
+          "Meditate often on the swiftness with which all that exists and is coming into being is swept by us",
+          "and carried away. For substance is like a river’s unending flow, its activities continually",
+          "changing and causes infinitely shifting so that almost nothing at all stands still."
+      ],
       "author": "MARCUS AURELIUS",
       "citation": "MEDITATIONS, 5.23"
   },
@@ -2263,9 +2312,23 @@
   "11-19": {
       "theme": "ACCEPTANCE",
       "title": "MAXIMS FROM THREE WISE MEN",
-      "quote": "For any challenge we should hold three thoughts at our command: 'Lead on God and Destiny, To that Goal fixed for me long ago. I will follow and not stumble; even if my will is weak I will soldier on.\" \"Whoever embraces necessity count as wise, skilled in divine matters.\" \"If it pleases the gods, so be it. They may well kill me, but they can't hurt me.",
+      "quote": "For any challenge we should hold three thoughts at our command: “Lead on God and Destiny, To that Goal fixed for me long ago. I will follow and not stumble; even if my will is weak I will soldier on.”",
       "author": "EPICTETUS",
-      "citation": "ENCHIRIDION, 53"
+      "citation": "ENCHIRIDION, 53",
+      "quotes": [
+          {
+              "text": "For any challenge we should hold three thoughts at our command: “Lead on God and Destiny, To that Goal fixed for me long ago. I will follow and not stumble; even if my will is weak I will soldier on.”",
+              "author": "CLEANTHES"
+          },
+          {
+              "text": "Whoever embraces necessity counts as wise, skilled in divine matters.",
+              "author": "EURIPIDES"
+          },
+          {
+              "text": "If it pleases the gods, so be it. They may well kill me, but they can’t hurt me.",
+              "author": "PLATO’S CRITO AND APOLOGY"
+          }
+      ]
   },
   "11-20": {
       "theme": "ACCEPTANCE",
@@ -2291,7 +2354,7 @@
   "11-23": {
       "theme": "ACCEPTANCE",
       "title": "ATTACHMENTS ARE THE ENEMY",
-      "quote": "In short, you must remember this--that if you hold anything dear outside of your own reasoned choice, you will have destroyed your capacity for choice.",
+      "quote": "In short, you must remember this—that if you hold anything dear outside of your own reasoned choice, you will have destroyed your capacity for choice.",
       "author": "EPICTETUS",
       "citation": "DISCOURSES, 4.4.23"
   },
@@ -2326,7 +2389,7 @@
   "11-28": {
       "theme": "ACCEPTANCE",
       "title": "IT'S NOT ON THEM, IT'S ON YOU",
-      "quote": "If someone is slipping up, kindly correct them and point out what they missed. But if you can't, blame yourself--or no one.",
+      "quote": "If someone is slipping up, kindly correct them and point out what they missed. But if you can't, blame yourself—or no one.",
       "author": "MARCUS AURELIUS",
       "citation": "MEDITATIONS, 10.4"
   },
@@ -2340,7 +2403,7 @@
   "11-30": {
       "theme": "ACCEPTANCE",
       "title": "FOLLOW THE LOGOS",
-      "quote": "The person who follows reason in all things will have both leisure and a readiness to act--they are at once both cheerful and self-composed.",
+      "quote": "The person who follows reason in all things will have both leisure and a readiness to act—they are at once both cheerful and self-composed.",
       "author": "MARCUS AURELIUS",
       "citation": "MEDITATIONS, 10.12b"
   },
@@ -2368,14 +2431,14 @@
   "12-04": {
       "theme": "MEDITATION ON MORTALITY",
       "title": "YOU DON'T OWN THAT",
-      "quote": "Anything that can be prevented, taken away, or coerced is not a person's own--but those things that can't be blocked are their own.",
+      "quote": "Anything that can be prevented, taken away, or coerced is not a person's own—but those things that can't be blocked are their own.",
       "author": "EPICTETUS",
       "citation": "DISCOURSES, 3.24.3"
   },
   "12-05": {
       "theme": "MEDITATION ON MORTALITY",
       "title": "THE BENEFITS OF SOBERING THOUGHTS",
-      "quote": "Keep death and exile before your eyes each day, along with everything that seems terrible--by doing so, you'll never have a base thought nor will you have excessive desire.",
+      "quote": "Keep death and exile before your eyes each day, along with everything that seems terrible—by doing so, you'll never have a base thought nor will you have excessive desire.",
       "author": "EPICTETUS",
       "citation": "ENCHIRIDION, 21"
   },
@@ -2403,7 +2466,7 @@
   "12-09": {
       "theme": "MEDITATION ON MORTALITY",
       "title": "SPENDTHRIFTS OF TIME",
-      "quote": "Were all the geniuses of history to focus on this single theme, they could never fully express their bafflement at the darkness of the human mind. No person would give up even an inch of their estate, and the slightest dispute with a neighbor can mean hell to pay; yet we easily let others encroach on our lives--worse, we often pave the way for those who will take it over. No person hands out their money to passersby, but to how many do each of us hand out our lives! We're tight-fisted with property and money, yet think too little of wasting time, the one thing about which we should all be the toughest misers.",
+      "quote": "Were all the geniuses of history to focus on this single theme, they could never fully express their bafflement at the darkness of the human mind. No person would give up even an inch of their estate, and the slightest dispute with a neighbor can mean hell to pay; yet we easily let others encroach on our lives—worse, we often pave the way for those who will take it over. No person hands out their money to passersby, but to how many do each of us hand out our lives! We're tight-fisted with property and money, yet think too little of wasting time, the one thing about which we should all be the toughest misers.",
       "author": "SENECA",
       "citation": "ON THE BREVITY OF LIFE, 3.1-2"
   },
@@ -2445,20 +2508,20 @@
   "12-15": {
       "theme": "MEDITATION ON MORTALITY",
       "title": "A SIMPLE WAY TO MEASURE OUR DAYS",
-      "quote": "This is the mark of perfection of character--to spend each day as if it were your last, without frenzy, laziness, or any pretending.",
+      "quote": "This is the mark of perfection of character—to spend each day as if it were your last, without frenzy, laziness, or any pretending.",
       "author": "MARCUS AURELIUS",
       "citation": "MEDITATIONS, 7.69"
   },
   "12-16": {
       "theme": "MEDITATION ON MORTALITY",
       "title": "EVERLASTING GOOD HEALTH",
-      "quote": "I tell you, you only have to learn to live like the healthy person does . . . living with complete confidence. What confidence? The only one worth holding, in what is trustworthy, unhindered, and can't be taken away--your own reasoned choice.",
+      "quote": "I tell you, you only have to learn to live like the healthy person does . . . living with complete confidence. What confidence? The only one worth holding, in what is trustworthy, unhindered, and can't be taken away—your own reasoned choice.",
       "author": "EPICTETUS",
       "citation": "DISCOURSES, 3.26.23b-24"
   },
   "12-17": {
       "theme": "MEDITATION ON MORTALITY",
-      "title": "KNOW THYSELF--BEFORE IT'S TOO LATE",
+      "title": "KNOW THYSELF—BEFORE IT'S TOO LATE",
       "quote": "Death lies heavy upon one who, known exceedingly well by all, dies unknown to himself.",
       "author": "SENECA",
       "citation": "THYESTES, 400"
@@ -2466,21 +2529,21 @@
   "12-18": {
       "theme": "MEDITATION ON MORTALITY",
       "title": "WHAT COMES TO US ALL",
-      "quote": "Both Alexander the Great and his mule-keeper were both brought to the same place by death-- they were either received into the all-generative reason, or scattered among the atoms.",
+      "quote": "Both Alexander the Great and his mule-keeper were both brought to the same place by death— they were either received into the all-generative reason, or scattered among the atoms.",
       "author": "MARCUS AURELIUS",
       "citation": "MEDITATIONS, 6.24"
   },
   "12-19": {
       "theme": "MEDITATION ON MORTALITY",
       "title": "HUMAN SCALE",
-      "quote": "Think of the whole universe of matter and how small your share. Think about the expanse of time and how brief--almost momentary--the part marked for you. Think of the workings of fate and how infinitesimal your role.",
+      "quote": "Think of the whole universe of matter and how small your share. Think about the expanse of time and how brief—almost momentary—the part marked for you. Think of the workings of fate and how infinitesimal your role.",
       "author": "MARCUS AURELIUS",
       "citation": "MEDITATIONS, 5.24"
   },
   "12-20": {
       "theme": "MEDITATION ON MORTALITY",
       "title": "FEAR THE FEAR OF DEATH",
-      "quote": "Do you then ponder how the supreme of human evils, the surest mark of the base and cowardly, is not death, but the fear of death? I urge you to discipline yourself against such fear, direct all your thinking, exercises, and reading this way--and you will know the only path to human freedom.",
+      "quote": "Do you then ponder how the supreme of human evils, the surest mark of the base and cowardly, is not death, but the fear of death? I urge you to discipline yourself against such fear, direct all your thinking, exercises, and reading this way—and you will know the only path to human freedom.",
       "author": "EPICTETUS",
       "citation": "DISCOURSES, 3.26.38-39"
   },
@@ -2494,7 +2557,7 @@
   "12-22": {
       "theme": "MEDITATION ON MORTALITY",
       "title": "STAKE YOUR OWN CLAIM",
-      "quote": "For it's disgraceful for an old person, or one in sight of old age, to have only the knowledge carried in their notebooks. Zeno said this . . . what do you say? Cleanthes said that . . . what do you say? How long will you be compelled by the claims of another? Take charge and stake your own claim--something posterity will carry in its notebook.",
+      "quote": "For it's disgraceful for an old person, or one in sight of old age, to have only the knowledge carried in their notebooks. Zeno said this . . . what do you say? Cleanthes said that . . . what do you say? How long will you be compelled by the claims of another? Take charge and stake your own claim—something posterity will carry in its notebook.",
       "author": "SENECA",
       "citation": "MORAL LETTERS, 33.7"
   },
@@ -2508,21 +2571,21 @@
   "12-24": {
       "theme": "MEDITATION ON MORTALITY",
       "title": "MEANINGLESS . . . LIKE A FINE WINE",
-      "quote": "You know what wine and liqueur tastes like. It makes no difference whether a hundred or a thousand bottles pass through your bladder--you are nothing more than a filter.",
+      "quote": "You know what wine and liqueur tastes like. It makes no difference whether a hundred or a thousand bottles pass through your bladder—you are nothing more than a filter.",
       "author": "SENECA",
       "citation": "MORAL LETTERS, 77.16"
   },
   "12-25": {
       "theme": "MEDITATION ON MORTALITY",
       "title": "DON'T BURN THE CANDLE AT BOTH ENDS",
-      "quote": "The mind must be given relaxation--it will rise improved and sharper after a good break. Just as rich fields must not be forced--for they will quickly lose their fertility if never given a break --so constant work on the anvil will fracture the force of the mind. But it regains its powers if it is set free and relaxed for a while. Constant work gives rise to a certain kind of dullness and feebleness in the rational soul.",
+      "quote": "The mind must be given relaxation—it will rise improved and sharper after a good break. Just as rich fields must not be forced—for they will quickly lose their fertility if never given a break —so constant work on the anvil will fracture the force of the mind. But it regains its powers if it is set free and relaxed for a while. Constant work gives rise to a certain kind of dullness and feebleness in the rational soul.",
       "author": "SENECA",
       "citation": "ON TRANQUILITY OF MIND, 17.5"
   },
   "12-26": {
       "theme": "MEDITATION ON MORTALITY",
-      "title": "LIFE IS LONG--IF YOU KNOW HOW TO USE IT",
-      "quote": "It's not at all that we have too short a time to live, but that we squander a great deal of it. Life is long enough, and it's given in sufficient measure to do many great things if we spend it well. But when it's poured down the drain of luxury and neglect, when it's employed to no good end, we're finally driven to see that it has passed by before we even recognized it passing. And so it is--we don't receive a short life, we make it so.",
+      "title": "LIFE IS LONG—IF YOU KNOW HOW TO USE IT",
+      "quote": "It's not at all that we have too short a time to live, but that we squander a great deal of it. Life is long enough, and it's given in sufficient measure to do many great things if we spend it well. But when it's poured down the drain of luxury and neglect, when it's employed to no good end, we're finally driven to see that it has passed by before we even recognized it passing. And so it is—we don't receive a short life, we make it so.",
       "author": "SENECA",
       "citation": "ON THE BREVITY OF LIFE, 1.3-4a"
   },
@@ -2557,7 +2620,7 @@
   "12-31": {
       "theme": "MEDITATION ON MORTALITY",
       "title": "GET ACTIVE IN YOUR OWN RESCUE",
-      "quote": "Stop wandering about! You aren't likely to read your own notebooks, or ancient histories, or the anthologies you've collected to enjoy in your old age. Get busy with life's purpose, toss aside empty hopes, get active in your own rescue--if you care for yourself at all--and do it while you can.",
+      "quote": "Stop wandering about! You aren't likely to read your own notebooks, or ancient histories, or the anthologies you've collected to enjoy in your old age. Get busy with life's purpose, toss aside empty hopes, get active in your own rescue—if you care for yourself at all—and do it while you can.",
       "author": "MARCUS AURELIUS",
       "citation": "MEDITATIONS, 3.14"
   }
