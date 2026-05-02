@@ -84,7 +84,6 @@ const DailyReading: React.FC = () => {
     <main style={{ fontFamily: 'Arial, sans-serif', maxWidth: '720px', margin: 'auto', padding: '1rem' }}>
       <section aria-label="Choose a daily reading" style={{ display: 'grid', gap: '0.75rem', marginBottom: '1rem' }}>
         <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.5rem', alignItems: 'center' }}>
-          <label htmlFor="reading-date">Date</label>
           <input
             id="reading-date"
             type="date"
@@ -97,41 +96,7 @@ const DailyReading: React.FC = () => {
             }}
             style={{ padding: '0.5rem', fontSize: '1rem' }}
           />
-          <label htmlFor="reading-month">Month</label>
-          <select
-            id="reading-month"
-            value={month}
-            onChange={(event) => {
-              const nextMonth = event.target.value;
-              const nextDay = daysByMonth[nextMonth].includes(selectedDay)
-                ? selectedDay
-                : daysByMonth[nextMonth][daysByMonth[nextMonth].length - 1];
-              updateReadingKey(`${nextMonth}-${nextDay}`);
-            }}
-            style={{ padding: '0.5rem', fontSize: '1rem' }}
-          >
-            {monthNames.map((monthName, index) => {
-              const monthValue = String(index + 1).padStart(2, '0');
-              return (
-                <option key={monthValue} value={monthValue}>
-                  {monthName}
-                </option>
-              );
-            })}
-          </select>
-          <label htmlFor="reading-day">Day</label>
-          <select
-            id="reading-day"
-            value={selectedDay}
-            onChange={(event) => updateReadingKey(`${month}-${event.target.value}`)}
-            style={{ padding: '0.5rem', fontSize: '1rem' }}
-          >
-            {availableDays.map((day) => (
-              <option key={day} value={day}>
-                {Number(day)}
-              </option>
-            ))}
-          </select>
+
         </div>
       </section>
 
