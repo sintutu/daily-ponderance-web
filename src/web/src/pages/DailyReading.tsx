@@ -33,7 +33,7 @@ const getMonthName = (date: string): string => {
   return new Date(year, month - 1, day).toLocaleString("default", { month: "long" });
 };
 
-const DailyReading: React.FC = () => {
+const DailyReading: React.FC<{ themeToggle: React.ReactNode }> = ({ themeToggle }) => {
   const [date, setDate] = useState<string>(getPacificDate()); // Today's date in US Pacific Time
   const [reading, setReading] = useState<any>(null);
   const [error, setError] = useState<string | null>(null);
@@ -65,10 +65,14 @@ const DailyReading: React.FC = () => {
   return (
     <div style={{ fontFamily: 'Arial, sans-serif', maxWidth: '600px', margin: 'auto', padding: '1rem' }}>
 
-      {/* DatePicker with default date */}
-      <DatePicker defaultDate={date} onDateChange={setDate} />
+      <div className="reading-toolbar">
+        <DatePicker defaultDate={date} onDateChange={setDate} />
+        {themeToggle}
+      </div>
       {reading ? (
-          <p>{getMonthName(date)}'s theme: {reading.theme}</p>
+          <p className="monthly-theme">
+            {getMonthName(date)}'s theme: <span>{reading.theme}</span>
+          </p>
         ) : (
           <p>No reading available for this date.</p>
         )}
@@ -84,7 +88,7 @@ const DailyReading: React.FC = () => {
           <blockquote>
             <p>"{reading.quote.replace(/--/g, "\u2014")}"</p>
           </blockquote>
-          <footer>- {reading.author}, <em>{reading.citation}</em></footer>
+          <footer>&mdash;{reading.author}, <em>{reading.citation}</em></footer>
           {/* Add the CopyButton here */}
           <CopyButton
             date={date}
