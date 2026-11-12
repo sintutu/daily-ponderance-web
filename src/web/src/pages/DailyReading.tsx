@@ -63,7 +63,7 @@ const DailyReading: React.FC<{ themeToggle: React.ReactNode }> = ({ themeToggle 
   }, [date]);
 
   return (
-    <div style={{ fontFamily: 'Arial, sans-serif', maxWidth: '600px', margin: 'auto', padding: '1rem' }}>
+    <div className="daily-reading">
 
       <div className="reading-toolbar">
         <DatePicker defaultDate={date} onDateChange={setDate} />
@@ -82,20 +82,18 @@ const DailyReading: React.FC<{ themeToggle: React.ReactNode }> = ({ themeToggle 
 
       {/* Reading Display */}
       {reading ? (
-        <div style={{ marginTop: '1rem', border: '1px solid #ccc', padding: '1rem', borderRadius: '8px' }}>
-          <p>{formatDateWithSuffix(date)}</p>
+        <div className="reading-card">
+          <p className="reading-date">{formatDateWithSuffix(date)} <span aria-hidden="true">·</span> {reading.theme}</p>
           <h3>{reading.title}</h3>
-          <blockquote>
-            <p>"{reading.quote.replace(/--/g, "\u2014")}"</p>
-          </blockquote>
-          <footer>&mdash;{reading.author}, <em>{reading.citation}</em></footer>
-          {/* Add the CopyButton here */}
+          <p className="reading-quote">"{reading.quote.replace(/--/g, "\u2014")}"</p>
+          <footer className="reading-citation">&mdash;{reading.author}, <em>{reading.citation}</em></footer>
           <CopyButton
             date={date}
             title={reading.title}
             quote={reading.quote.replace(/--/g, "\u2014")}
             author={reading.author}
             citation={reading.citation}
+            theme={reading.theme}
           />
         </div>
       ) : (
