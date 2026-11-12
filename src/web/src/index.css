@@ -302,6 +302,7 @@ button { font-family: inherit; }
   line-height: 1.2;
   text-align: left;
 }
+.section-label-short { display: none; }
 .message-section { margin: 0 0 2rem; scroll-margin-top: 1rem; }
 .section-heading { display: flex; align-items: baseline; justify-content: space-between; gap: .75rem; margin-bottom: .8rem; }
 .section-heading h2 { margin: 0; font-size: 1.15rem; letter-spacing: -.015em; }
@@ -358,7 +359,28 @@ button { font-family: inherit; }
   .date-picker-trigger { min-height: 54px; }
   .section-heading { align-items: flex-start; }
   .message-tile { padding: .9rem; }
-  .section-nav-floating { top: 12px; right: 10px; bottom: 12px; width: min(190px, calc(100vw - 20px)); max-height: none; }
+}
+
+@media (max-width: 600px) {
+  .section-nav:not(.section-nav-floating) {
+    position: sticky;
+    z-index: 45;
+    top: 0;
+    justify-content: space-between;
+    gap: .35rem;
+    margin: .5rem 0 1.25rem;
+    padding: .5rem 0;
+    background: var(--page-bg);
+  }
+  .section-nav:not(.section-nav-floating) a {
+    flex: 1 1 0;
+    padding: .45rem .2rem;
+    font-size: .9rem;
+    text-align: center;
+  }
+  .section-nav:not(.section-nav-floating) .section-label-full { display: none; }
+  .section-nav:not(.section-nav-floating) .section-label-short { display: inline; }
+  .section-nav-floating { display: none; }
 }
 
 @media (min-width: 481px) and (max-width: 1160px) {

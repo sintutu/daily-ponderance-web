@@ -21,8 +21,9 @@ const MeetingMessages: React.FC = () => {
   }, []);
 
   const sectionLinks = () => meetingSections.map((section) => (
-    <a key={section.id} href={`#${section.id}`}>
-      {section.title}
+    <a key={section.id} href={`#${section.id}`} aria-label={section.title} title={section.title}>
+      <span className="section-label-full">{section.title}</span>
+      <span className="section-label-short" aria-hidden="true">{section.title.charAt(0)}</span>
     </a>
   ));
 
