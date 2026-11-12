@@ -1,24 +1,40 @@
 import React, { useCallback, useEffect, useState } from 'react';
 import DailyReading from './pages/DailyReading';
 import MeetingMessages from './pages/MeetingMessages';
+import Preamble from './pages/Preamble';
 import { meetingSections } from './data/meetingMessages';
 import { usePacificAlert } from './hooks/usePacificAlert';
 
 type Theme = 'light-mode' | 'dark-mode';
+type Page = 'reading' | 'preamble' | 'messages';
+
+const PAGE_PATHS: Record<Page, string> = {
+  reading: '/daily-ponderance',
+  preamble: '/preamble',
+  messages: '/items-to-paste-in-chat',
+};
+
+const getPageFromPath = (path: string): Page => {
+  if (path === PAGE_PATHS.preamble) return 'preamble';
+  if (path === PAGE_PATHS.messages) return 'messages';
+  return 'reading';
+};
 
 const App: React.FC = () => {
   const [theme, setTheme] = useState<Theme>('light-mode');
-  const [page, setPage] = useState<'reading' | 'messages'>('reading');
+  const [page, setPage] = useState<Page>(() => getPageFromPath(window.location.pathname));
   const [showLastFiveAlert, setShowLastFiveAlert] = useState(false);
 
   const handlePacificAlert = useCallback(() => {
+    window.history.pushState({}, '', PAGE_PATHS.messages);
     setPage('messages');
     setShowLastFiveAlert(true);
   }, []);
 
   usePacificAlert(handlePacificAlert);
 
-  const navigate = (nextPage: 'reading' | 'messages') => {
+  const navigate = (nextPage: Page) => {
+    window.history.pushState({}, '', PAGE_PATHS[nextPage]);
     setPage(nextPage);
     if (nextPage === 'messages') {
       window.requestAnimationFrame(() => {
@@ -30,11 +46,26 @@ const App: React.FC = () => {
   };
 
   useEffect(() => {
+    const pageAtLoad = getPageFromPath(window.location.pathname);
+    if (window.location.pathname !== PAGE_PATHS[pageAtLoad]) {
+      window.history.replaceState({}, '', PAGE_PATHS[pageAtLoad]);
+    }
+    const handlePopState = () => {
+      setPage(getPageFromPath(window.location.pathname));
+      window.scrollTo({ top: 0 });
+    };
+    window.addEventListener('popstate', handlePopState);
+    return () => window.removeEventListener('popstate', handlePopState);
+  }, []);
+
+  useEffect(() => {
     document.body.className = theme;
   }, [theme]);
 
   useEffect(() => {
-    document.title = page === 'messages' ? 'Items to paste in chat | Daily Ponderance' : 'Daily Ponderance';
+    document.title = page === 'messages'
+      ? 'Items to paste in chat | Daily Ponderance'
+      : page === 'preamble' ? 'Preamble | Daily Ponderance' : 'Daily Ponderance';
   }, [page]);
 
   useEffect(() => {
@@ -54,17 +85,19 @@ const App: React.FC = () => {
   return (
     <main className="app-shell">
       <div className="page-content">
-        {page === 'reading' ? (
-          <DailyReading />
-        ) : (
-          <MeetingMessages />
-        )}
+        {page === 'reading' ? <DailyReading /> : page === 'preamble' ? <Preamble /> : <MeetingMessages />}
       </div>
       <footer className="site-footer">
-        <nav aria-label="Page navigation">
-          <button className="footer-link" type="button" onClick={() => navigate(page === 'reading' ? 'messages' : 'reading')}>
-            {page === 'reading' ? 'Items to paste in chat' : 'Daily reading'}
-          </button>
+        <nav aria-label="Page navigation" className="page-navigation">
+          <a className="footer-link" href={PAGE_PATHS.reading} aria-current={page === 'reading' ? 'page' : undefined} onClick={(event) => { event.preventDefault(); navigate('reading'); }}>
+            Daily ponderance
+          </a>
+          <a className="footer-link" href={PAGE_PATHS.preamble} aria-current={page === 'preamble' ? 'page' : undefined} onClick={(event) => { event.preventDefault(); navigate('preamble'); }}>
+            Preamble
+          </a>
+          <a className="footer-link" href={PAGE_PATHS.messages} aria-current={page === 'messages' ? 'page' : undefined} onClick={(event) => { event.preventDefault(); navigate('messages'); }}>
+            Items to paste in chat
+          </a>
         </nav>
         <button
           className="theme-toggle"

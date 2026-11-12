@@ -64,6 +64,7 @@ const DailyReading: React.FC = () => {
 
   return (
     <div className="daily-reading">
+      <p className="eyebrow page-eyebrow">ASMM · Daily Ponderance</p>
 
       <div className="reading-toolbar">
         <DatePicker defaultDate={date} onDateChange={setDate} />

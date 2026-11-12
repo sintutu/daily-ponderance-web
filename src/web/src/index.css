@@ -254,8 +254,10 @@ button { font-family: inherit; }
   align-items: center;
   justify-content: flex-end;
   gap: .75rem;
+  flex-wrap: wrap;
   padding: 1.5rem 0 .5rem;
 }
+.page-navigation { display: flex; flex-wrap: wrap; align-items: center; justify-content: flex-end; gap: .5rem; }
 .footer-link {
   padding: .55rem .9rem;
   border: 1px solid var(--border);
@@ -264,46 +266,42 @@ button { font-family: inherit; }
   color: var(--text);
   font: inherit;
   font-size: .9rem;
+  text-decoration: none;
   cursor: pointer;
 }
-.footer-link:hover { background: var(--surface); }
+.footer-link:hover { background: var(--surface); text-decoration: none; }
 .footer-link:focus-visible, .message-tile:focus-visible, .section-nav a:focus-visible, .dialog-close:focus-visible { outline: 3px solid #7c91c9; outline-offset: 3px; }
 
 .messages-page { width: min(100%, 680px); margin: 0 auto; }
+.preamble-page { width: min(100%, 680px); margin: 0 auto; }
+.page-eyebrow { margin: .5rem 0 1rem; text-align: center; }
+.preamble-card {
+  padding: 1.25rem;
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  background: var(--surface);
+  box-shadow: 0 2px 8px rgba(23, 25, 35, .04);
+}
+.preamble-card p { margin: 0 0 1rem; line-height: 1.75; }
+.preamble-card p:last-child { margin-bottom: 0; }
 .messages-header { padding: .5rem 0 1rem; text-align: center; }
 .eyebrow { margin: 0 0 .35rem; color: var(--muted); font-size: .78rem; font-weight: 650; letter-spacing: .09em; text-transform: uppercase; }
 .messages-header h1 { margin: .25rem 0; font-size: clamp(1.65rem, 5vw, 2.2rem); letter-spacing: -.035em; }
 .messages-intro { margin: .5rem 0 0; color: var(--muted); }
-.section-nav { display: flex; flex-wrap: wrap; justify-content: center; gap: .5rem; margin: .5rem 0 2rem; }
+.section-nav {
+  position: sticky;
+  z-index: 45;
+  top: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: .5rem;
+  margin: .5rem 0 2rem;
+  padding: .5rem 0;
+  background: var(--page-bg);
+}
 .section-nav a { padding: .42rem .72rem; border: 1px solid var(--border); border-radius: 999px; background: var(--soft-surface); font-size: .82rem; text-decoration: none; }
 .section-nav a:hover { border-color: #9ca6bb; }
-.section-nav-floating {
-  position: fixed;
-  z-index: 40;
-  top: 12px;
-  bottom: 12px;
-  right: max(12px, calc((100vw - 760px) / 2 - 190px));
-  width: 176px;
-  height: auto;
-  overflow-y: auto;
-  flex-direction: column;
-  align-items: stretch;
-  justify-content: center;
-  gap: .3rem;
-  margin: 0;
-  padding: .5rem;
-  border: 1px solid var(--border);
-  border-radius: 16px;
-  background: var(--surface);
-  box-shadow: 0 8px 28px rgba(23, 25, 35, .16);
-}
-.section-nav-floating a {
-  flex: 0 0 auto;
-  padding: .36rem .5rem;
-  font-size: clamp(.66rem, 1.5vh, .82rem);
-  line-height: 1.2;
-  text-align: left;
-}
 .message-section { margin: 0 0 2rem; scroll-margin-top: 1rem; }
 .section-heading { display: flex; align-items: baseline; justify-content: space-between; gap: .75rem; margin-bottom: .8rem; }
 .section-heading h2 { margin: 0; font-size: 1.15rem; letter-spacing: -.015em; }
@@ -363,10 +361,7 @@ button { font-family: inherit; }
 }
 
 @media (max-width: 600px) {
-  .section-nav:not(.section-nav-floating) {
-    position: sticky;
-    z-index: 45;
-    top: 0;
+  .section-nav {
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
     justify-content: stretch;
@@ -375,16 +370,11 @@ button { font-family: inherit; }
     padding: .5rem 0;
     background: var(--page-bg);
   }
-  .section-nav:not(.section-nav-floating) a {
+  .section-nav a {
     min-width: 0;
     padding: .42rem .35rem;
     font-size: .76rem;
     line-height: 1.25;
     text-align: center;
   }
-  .section-nav-floating { display: none; }
-}
-
-@media (min-width: 481px) and (max-width: 1160px) {
-  .section-nav-floating { top: 12px; right: 12px; bottom: 12px; width: 190px; max-height: none; }
 }
