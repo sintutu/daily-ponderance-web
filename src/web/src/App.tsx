@@ -18,7 +18,8 @@ const App: React.FC = () => {
 
   return (
     <main className="app-shell">
-      <header className="app-header">
+      <DailyReading
+        themeToggle={
         <button
           className="theme-toggle"
           type="button"
@@ -37,8 +38,8 @@ const App: React.FC = () => {
             </svg>
           )}
         </button>
-      </header>
-      <DailyReading />
+        }
+      />
     </main>
   );
 };
