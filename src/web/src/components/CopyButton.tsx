@@ -8,7 +8,7 @@ const CopyButton: React.FC<{ date: string; title: string; quote: string; author:
   citation,
   theme,
 }) => {
-  const [buttonText, setButtonText] = useState("Copy");
+  const [buttonText, setButtonText] = useState("Click to copy");
   const copyTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   const formatDate = (dateString: string): string => {
@@ -56,18 +56,18 @@ const CopyButton: React.FC<{ date: string; title: string; quote: string; author:
       } else {
         throw new Error("Clipboard access is unavailable");
       }
-      setButtonText("Copied!");
+      setButtonText("Copied");
     } catch {
       setButtonText("Copy failed");
     }
     if (copyTimeoutRef.current) clearTimeout(copyTimeoutRef.current);
     copyTimeoutRef.current = setTimeout(() => {
-      setButtonText("Copy");
+      setButtonText("Click to copy");
       copyTimeoutRef.current = null;
     }, 5000);
   };
 
-  return <button className="copy-button" type="button" onClick={handleCopy}>{buttonText}</button>;
+  return <button className="message-action reading-copy-button" type="button" onClick={handleCopy}>{buttonText}</button>;
 };
 
 export default CopyButton;

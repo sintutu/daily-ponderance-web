@@ -14,7 +14,7 @@ export type MeetingSection = {
 // Reviewed snapshot of the requested parts of the published scribe document.
 export const meetingSections: MeetingSection[] = [
   {
-    id: 'direct-messages',
+    id: 'items-to-paste-in-chat',
     title: 'Direct Messages as Needed',
     messages: [
       {

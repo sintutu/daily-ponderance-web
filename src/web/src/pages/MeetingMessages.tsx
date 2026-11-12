@@ -22,7 +22,7 @@ const MeetingMessages: React.FC = () => {
 
   const sectionLinks = () => meetingSections.map((section) => (
     <a key={section.id} href={`#${section.id}`}>
-      {section.id === 'direct-messages' ? 'Items to paste in chat' : section.title}
+      {section.title}
     </a>
   ));
 

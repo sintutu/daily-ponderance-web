@@ -22,7 +22,7 @@ const App: React.FC = () => {
     setPage(nextPage);
     if (nextPage === 'messages') {
       window.requestAnimationFrame(() => {
-        document.getElementById('direct-messages')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        document.getElementById('items-to-paste-in-chat')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
       });
     } else {
       window.scrollTo({ top: 0, behavior: 'smooth' });
