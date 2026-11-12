@@ -72,6 +72,54 @@ export const meetingSections: MeetingSection[] = [
     ],
   },
   {
+    id: 'between-shares',
+    title: 'Between Shares',
+    messages: [
+      {
+        id: 'explore-website',
+        html: 'Explore our website! <a href="https://secularmeditation.org/">https://secularmeditation.org/</a>',
+        text: 'Explore our website! https://secularmeditation.org/',
+        displayHtml: 'Explore our website! <span class="message-link-text">https://secularmeditation.org/</span>',
+      },
+      {
+        id: 'home-group-invitation',
+        html: 'Not a member yet?<br><a href="https://secularmeditation.org/contact-us/forms-home-group-request/">Become an ASMM Home Group member</a>',
+        text: 'Not a member yet?\nBecome an ASMM Home Group member (https://secularmeditation.org/contact-us/forms-home-group-request/)',
+        displayHtml: 'Not a member yet?<br><span class="message-link-text">Become an ASMM Home Group member</span>',
+      },
+      {
+        id: 'member-benefits',
+        html: '<strong>ASMM Home Group Members Can:</strong><br><a href="https://secularmeditation.org/contact-us/forms-literature-request/">Request free literature</a><br><a href="https://secularmeditation.org/contact-us/forms-anniversary-coin-request/">Request a free Secular Anniversary Coin</a><br><a href="https://secularmeditation.org/members/whatsapp/">Join our WhatsApp Group</a><br><a href="https://secularmeditation.org/contact-us/forms-host-and-co-host-training/">Request Co-Host or Host Training</a>',
+        text: 'ASMM Home Group Members Can:\nRequest free literature (https://secularmeditation.org/contact-us/forms-literature-request/)\nRequest a free Secular Anniversary Coin (https://secularmeditation.org/contact-us/forms-anniversary-coin-request/)\nJoin our WhatsApp Group (https://secularmeditation.org/members/whatsapp/)\nRequest Co-Host or Host Training (https://secularmeditation.org/contact-us/forms-host-and-co-host-training/)',
+        displayHtml: '<strong>ASMM Home Group Members Can:</strong><br><span class="message-link-text">Request free literature</span><br><span class="message-link-text">Request a free Secular Anniversary Coin</span><br><span class="message-link-text">Join our WhatsApp Group</span><br><span class="message-link-text">Request Co-Host or Host Training</span>',
+      },
+      {
+        id: 'seventh-tradition',
+        html: '&ldquo;Every group ought to be fully self-supporting, declining outside contributions.&rdquo;<br>7th Tradition link: <a href="https://donate.homegroup.online/asmm/">ASMM’s Homegroup.Online Donation Page</a>',
+        text: '“Every group ought to be fully self-supporting, declining outside contributions.”\n7th Tradition link: ASMM’s Homegroup.Online Donation Page (https://donate.homegroup.online/asmm/)',
+        displayHtml: '&ldquo;Every group ought to be fully self-supporting, declining outside contributions.&rdquo;<br>7th Tradition link: <span class="message-link-text">ASMM’s Homegroup.Online Donation Page</span>',
+      },
+      {
+        id: 'host-recruiting',
+        html: '<strong>We currently need hosts!</strong><br>Please reach out if you are interested. Service keeps us sober!<br><a href="https://secularmeditation.org/contact-us/forms-host-and-co-host-training/">Request Co-Host or Host Training</a>',
+        text: 'We currently need hosts!\nPlease reach out if you are interested. Service keeps us sober!\nRequest Co-Host or Host Training (https://secularmeditation.org/contact-us/forms-host-and-co-host-training/)',
+        displayHtml: '<strong>We currently need hosts!</strong><br>Please reach out if you are interested. Service keeps us sober!<br><span class="message-link-text">Request Co-Host or Host Training</span>',
+      },
+      {
+        id: 'assistant-treasurer',
+        html: 'ASMM is also looking for an <strong>Assistant Treasurer</strong> as soon as possible. If you are interested in this (1 year) service position, please email: <a href="mailto:secularmeditation.aa@gmail.com">secularmeditation.aa@gmail.com</a><br><br>Requirements: 1 year continuous sobriety, be an ASMM home group member, volunteer for the position, and be confirmed by vote at a Group Conscience Meeting.',
+        text: 'ASMM is also looking for an Assistant Treasurer as soon as possible. If you are interested in this (1 year) service position, please email: secularmeditation.aa@gmail.com (mailto:secularmeditation.aa@gmail.com)\n\nRequirements: 1 year continuous sobriety, be an ASMM home group member, volunteer for the position, and be confirmed by vote at a Group Conscience Meeting.',
+        displayHtml: 'ASMM is also looking for an <strong>Assistant Treasurer</strong> as soon as possible. If you are interested in this (1 year) service position, please email: <span class="message-link-text">secularmeditation.aa@gmail.com</span><br><br>Requirements: 1 year continuous sobriety, be an ASMM home group member, volunteer for the position, and be confirmed by vote at a Group Conscience Meeting.',
+      },
+      {
+        id: 'more-secular-meetings',
+        html: 'Once a day not enough? Looking for more Secular AA meetings? You’re in luck, there’s a whole bunch of ’em!<br><a href="https://www.worldwidesecularmeetings.com/meetings">https://www.worldwidesecularmeetings.com/meetings</a>',
+        text: 'Once a day not enough? Looking for more Secular AA meetings? You’re in luck, there’s a whole bunch of ’em!\nhttps://www.worldwidesecularmeetings.com/meetings',
+        displayHtml: 'Once a day not enough? Looking for more Secular AA meetings? You’re in luck, there’s a whole bunch of ’em!<br><span class="message-link-text">https://www.worldwidesecularmeetings.com/meetings</span>',
+      },
+    ],
+  },
+  {
     id: 'last-five',
     title: 'Last 5 Min',
     messages: [

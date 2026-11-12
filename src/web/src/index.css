@@ -251,7 +251,9 @@ button { font-family: inherit; }
 .page-content { min-height: calc(100vh - 92px); }
 .site-footer {
   display: flex;
-  justify-content: center;
+  align-items: center;
+  justify-content: flex-end;
+  gap: .75rem;
   padding: 1.5rem 0 .5rem;
 }
 .footer-link {

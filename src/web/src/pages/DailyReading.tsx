@@ -33,7 +33,7 @@ const getMonthName = (date: string): string => {
   return new Date(year, month - 1, day).toLocaleString("default", { month: "long" });
 };
 
-const DailyReading: React.FC<{ themeToggle: React.ReactNode }> = ({ themeToggle }) => {
+const DailyReading: React.FC = () => {
   const [date, setDate] = useState<string>(getPacificDate()); // Today's date in US Pacific Time
   const [reading, setReading] = useState<any>(null);
   const [error, setError] = useState<string | null>(null);
@@ -67,7 +67,6 @@ const DailyReading: React.FC<{ themeToggle: React.ReactNode }> = ({ themeToggle 
 
       <div className="reading-toolbar">
         <DatePicker defaultDate={date} onDateChange={setDate} />
-        {themeToggle}
       </div>
       {reading ? (
           <p className="monthly-theme">
