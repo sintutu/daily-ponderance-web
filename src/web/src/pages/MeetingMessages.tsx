@@ -46,7 +46,7 @@ const MeetingMessages: React.FC = () => {
       <section className="message-section" id={section.id} key={section.id} aria-labelledby={`${section.id}-title`}>
         <div className="section-heading">
           <h2 id={`${section.id}-title`}>{section.title}</h2>
-          {section.id === 'last-five' && <span className="section-time">9:53 a.m. Pacific</span>}
+          {section.id === 'last-five'}
         </div>
         <div className="message-grid">
           {section.messages.map((message) => <MessageTile message={message} key={message.id} />)}
