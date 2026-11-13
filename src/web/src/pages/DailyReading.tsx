@@ -64,18 +64,11 @@ const DailyReading: React.FC = () => {
 
   return (
     <div className="daily-reading">
-      <p className="eyebrow page-eyebrow">ASMM · Daily Ponderance</p>
+      <p className="eyebrow page-eyebrow">ASMM · Daily Ponderance · {reading?.theme}</p>
 
       <div className="reading-toolbar">
         <DatePicker defaultDate={date} onDateChange={setDate} />
       </div>
-      {reading ? (
-          <p className="monthly-theme">
-            {getMonthName(date)}'s theme: <span>{reading.theme}</span>
-          </p>
-        ) : (
-          <p>No reading available for this date.</p>
-        )}
 
       {/* Error Message */}
       {error && <p style={{ color: 'red' }}>{error}</p>}
@@ -83,7 +76,7 @@ const DailyReading: React.FC = () => {
       {/* Reading Display */}
       {reading ? (
         <div className="reading-card">
-          <p className="reading-date">{formatDateWithSuffix(date)} <span aria-hidden="true">·</span> {reading.theme}</p>
+          <p className="reading-date">{formatDateWithSuffix(date)}</p>
           <h3>{reading.title}</h3>
           <p className="reading-quote">"{reading.quote.replace(/--/g, "\u2014")}"</p>
           <footer className="reading-citation">&mdash;{reading.author}, <em>{reading.citation}</em></footer>
