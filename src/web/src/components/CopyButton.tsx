@@ -37,7 +37,7 @@ const CopyButton: React.FC<{ date: string; title: string; quote: string; author:
     const formattedDate = formatDate(date);
     const dateLine = `${formattedDate} · ${theme}`;
     const contentToCopy = `${dateLine}\n\n${title}\n\n"${quote}"\n\n\u2014${author}, ${citation}`;
-    const htmlToCopy = `<p style="margin:0 0 12px;font-size:10pt">${escapeHtml(dateLine)}</p><h3 style="margin:0 0 12px">${escapeHtml(title)}</h3><blockquote style="margin:0 0 12px"><p style="margin:0;font-size:12pt">&quot;${escapeHtml(quote)}&quot;</p></blockquote><p style="margin:0">\u2014${escapeHtml(author)}, <em>${escapeHtml(citation)}</em></p>`;
+    const htmlToCopy = `<p style="margin:0 0 12px;font-size:10pt">${escapeHtml(dateLine)}</p><p></p><h3 style="margin:0 0 12px">${escapeHtml(title)}<p></p></h3><p style="margin:0;font-size:12pt">&quot;${escapeHtml(quote)}&quot;</p><p></p><p style="margin:0">\u2014${escapeHtml(author)}, <em>${escapeHtml(citation)}</em></p>`;
 
     try {
       if (navigator.clipboard?.write && typeof ClipboardItem !== "undefined") {
