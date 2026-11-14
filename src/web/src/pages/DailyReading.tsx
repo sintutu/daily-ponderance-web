@@ -37,6 +37,7 @@ const DailyReading: React.FC = () => {
   const [date, setDate] = useState<string>(getPacificDate()); // Today's date in US Pacific Time
   const [reading, setReading] = useState<any>(null);
   const [error, setError] = useState<string | null>(null);
+  const [showMeditation, setShowMeditation] = useState(false);
 
   useEffect(() => {
     try {
@@ -91,6 +92,22 @@ const DailyReading: React.FC = () => {
         </div>
       ) : (
         !error && <p>Loading...</p>
+      )}
+      <div className="meditation-control">
+        <button className="footer-link" type="button" aria-expanded={showMeditation} onClick={() => setShowMeditation((visible) => !visible)}>
+          <span className="sr-only">{showMeditation ? 'Hide meditation' : 'Play meditation'}</span>
+          <svg className="meditation-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h12M6 21h12M7 3c0 4.5 2 6.5 5 9-3 2.5-5 4.5-5 9m10-18c0 4.5-2 6.5-5 9 3 2.5 5 4.5 5 9" /></svg>
+        </button>
+      </div>
+      {showMeditation && (
+        <section className="meditation-card" aria-label="ASMM meditation video">
+          <iframe
+            src="https://drive.google.com/file/d/15mnjeE43Fhm_z8Vzxac4YshH8oOz4lqS/preview"
+            title="ASMM meditation"
+            allow="autoplay"
+            allowFullScreen
+          />
+        </section>
       )}
     </div>
   );
