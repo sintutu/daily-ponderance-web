@@ -2,6 +2,7 @@ import React, { useCallback, useEffect, useState } from 'react';
 import DailyReading from './pages/DailyReading';
 import MeetingMessages from './pages/MeetingMessages';
 import Preamble from './pages/Preamble';
+import MessageTile from './components/MessageTile';
 import { meetingSections } from './data/meetingMessages';
 import { usePacificAlert } from './hooks/usePacificAlert';
 
@@ -125,12 +126,12 @@ const App: React.FC = () => {
           <section className="last-five-dialog" role="alertdialog" aria-modal="true" aria-labelledby="last-five-alert-title" aria-describedby="last-five-alert-description" onKeyDown={(event) => {
             if (event.key === 'Escape') setShowLastFiveAlert(false);
           }}>
-            <p className="eyebrow">Meeting reminder · 9:53 a.m. Pacific</p>
+            <p className="eyebrow">Meeting reminder · 9:50 a.m. Pacific</p>
             <h2 id="last-five-alert-title">Last 5 Min</h2>
             <p id="last-five-alert-description">The last five minutes of the meeting are starting.</p>
             <div className="alert-message-list">
               {meetingSections.find((section) => section.id === 'last-five')?.messages.map((message) => (
-                <p key={message.id} dangerouslySetInnerHTML={{ __html: message.html }} />
+                <MessageTile key={message.id} message={message} />
               ))}
             </div>
             <button className="dialog-close" type="button" onClick={() => setShowLastFiveAlert(false)} autoFocus>Close</button>

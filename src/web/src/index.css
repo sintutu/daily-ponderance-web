@@ -307,11 +307,16 @@ button { font-family: inherit; }
 }
 .section-nav a { padding: .42rem .72rem; border: 1px solid var(--border); border-radius: 999px; background: var(--soft-surface); font-size: .82rem; text-decoration: none; }
 .section-nav a:hover { border-color: #9ca6bb; }
-.message-section { margin: 0 0 2rem; scroll-margin-top: 1rem; }
+.message-section { margin: 0 0 2rem; scroll-margin-top: 6rem; }
 .section-heading { display: flex; align-items: baseline; justify-content: space-between; gap: .75rem; margin-bottom: .8rem; }
 .section-heading h2 { margin: 0; font-size: 1.15rem; letter-spacing: -.015em; }
+.section-toggle { display: grid; place-items: center; width: 34px; height: 34px; padding: 0; border: 1px solid var(--border); border-radius: 50%; background: var(--soft-surface); color: var(--text); cursor: pointer; }
+.section-toggle:hover { background: var(--surface); }
+.section-toggle:focus-visible { outline: 3px solid #7c91c9; outline-offset: 3px; }
+.section-toggle svg { width: 18px; height: 18px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
 .section-time { color: var(--muted); font-size: .82rem; white-space: nowrap; }
 .message-grid { display: grid; grid-template-columns: 1fr; gap: .7rem; }
+.message-grid[hidden] { display: none; }
 .message-tile {
   display: flex;
   flex-direction: column;
@@ -352,7 +357,7 @@ button { font-family: inherit; }
 .last-five-dialog { width: min(100%, 480px); max-height: min(90vh, 700px); overflow: auto; padding: 1.5rem; border: 1px solid var(--border); border-radius: 20px; background: var(--surface); color: var(--text); box-shadow: 0 24px 70px rgba(0, 0, 0, .3); }
 .last-five-dialog h2 { margin: .2rem 0 .5rem; font-size: 1.65rem; }
 .last-five-dialog > p:not(.eyebrow) { color: var(--muted); }
-.alert-message-list { margin: 1rem 0; padding: 1rem; border: 1px solid var(--border); border-radius: 12px; background: var(--soft-surface); line-height: 1.65; }
+.alert-message-list { display: grid; gap: .65rem; margin: 1rem 0; padding: 1rem; border: 1px solid var(--border); border-radius: 12px; background: var(--soft-surface); line-height: 1.65; }
 .alert-message-list p { margin: 0; }
 .dialog-close { display: block; margin-left: auto; padding: .55rem 1rem; border: 0; border-radius: 999px; background: var(--accent); color: var(--page-bg); font: inherit; cursor: pointer; }
 
