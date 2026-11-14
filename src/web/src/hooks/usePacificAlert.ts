@@ -2,7 +2,7 @@ import { useEffect } from 'react';
 
 const PACIFIC_TIME_ZONE = 'America/Los_Angeles';
 const ALERT_HOUR = 9;
-const ALERT_MINUTE = 53;
+const ALERT_MINUTE = 50;
 const pacificPartsFormatter = new Intl.DateTimeFormat('en-US', {
   timeZone: PACIFIC_TIME_ZONE,
   year: 'numeric',
