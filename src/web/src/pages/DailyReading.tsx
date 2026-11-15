@@ -4,7 +4,7 @@ import CopyButton from '../components/CopyButton';
 import readings from '../data/daily_stoic_readings.json';
 import { Readings } from '../interfaces/Reading'
 
-const getPacificDate = (): string => {
+export const getPacificDate = (): string => {
   const now = new Date();
   const pacificTime = new Date(
     now.toLocaleString('en-US', { timeZone: 'America/Los_Angeles' })
@@ -15,7 +15,7 @@ const getPacificDate = (): string => {
   return `${year}-${month}-${day}`; // YYYY-MM-DD
 };
 
-const formatDateWithSuffix = (date: string): string => {
+export const formatDateWithSuffix = (date: string): string => {
   const suffixes = ["th", "st", "nd", "rd"];
   const [year, month, day] = date.split("-").map(Number);
 

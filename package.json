@@ -5,6 +5,8 @@
     "scripts": {
         "start:web": "cd src/web && npm run dev",
         "build:web": "cd src/web && npm run build",
+        "test": "cd src/web && npm test",
+        "test:e2e": "cd src/web && npm run test:e2e",
         "start": "npm run start:web",
         "build": "npm run build:web"
     }
