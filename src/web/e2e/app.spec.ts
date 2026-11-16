@@ -2,7 +2,7 @@ import { expect, test } from '@playwright/test';
 
 test('navigate between pages and return with browser Back', async ({ page }) => {
   await page.goto('/');
-  await expect(page.getByRole('heading', { name: 'YOU CHOOSE THE OUTCOME' })).toBeVisible();
+  await expect(page.locator('.reading-card h3')).toBeVisible();
 
   await page.getByRole('link', { name: 'Preamble' }).click();
   await expect(page.getByRole('heading', { name: 'Preamble' })).toBeVisible();

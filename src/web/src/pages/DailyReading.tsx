@@ -3,6 +3,7 @@ import DatePicker from '../components/DatePicker';
 import CopyButton from '../components/CopyButton';
 import readings from '../data/daily_stoic_readings.json';
 import { Readings } from '../interfaces/Reading'
+import JournalEditor from '../components/JournalEditor';
 
 export const getPacificDate = (): string => {
   const now = new Date();
@@ -34,10 +35,20 @@ const getMonthName = (date: string): string => {
 };
 
 const DailyReading: React.FC = () => {
-  const [date, setDate] = useState<string>(getPacificDate()); // Today's date in US Pacific Time
+  const [date, setDate] = useState<string>(() => {
+    const requestedDate = new URLSearchParams(window.location.search).get('date');
+    return requestedDate && /^\d{4}-\d{2}-\d{2}$/.test(requestedDate) ? requestedDate : getPacificDate();
+  }); // Today's date in US Pacific Time
   const [reading, setReading] = useState<any>(null);
   const [error, setError] = useState<string | null>(null);
   const [showMeditation, setShowMeditation] = useState(false);
+  const [showReflection, setShowReflection] = useState(false);
+  const [journalDirty, setJournalDirty] = useState(false);
+
+  const changeDate = (nextDate: string) => {
+    if (journalDirty && !window.confirm('You have unsaved changes. Discard them and change the date?')) return;
+    setDate(nextDate);
+  };
 
   useEffect(() => {
     try {
@@ -68,7 +79,7 @@ const DailyReading: React.FC = () => {
       <p className="eyebrow page-eyebrow">ASMM · Daily Ponderance · {reading?.theme}</p>
 
       <div className="reading-toolbar">
-        <DatePicker defaultDate={date} onDateChange={setDate} />
+        <DatePicker defaultDate={date} onDateChange={changeDate} />
       </div>
 
       {/* Error Message */}
@@ -93,6 +104,15 @@ const DailyReading: React.FC = () => {
       ) : (
         !error && <p>Loading...</p>
       )}
+      <div className="meditation-control reflection-control">
+        <button className="footer-link" type="button" aria-expanded={showReflection} aria-controls="reflection-editor-panel" onClick={() => setShowReflection((visible) => !visible)}>
+          <span className="sr-only">{showReflection ? 'Hide reflection editor' : 'Show reflection editor'}</span>
+          <svg className="reflection-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1.1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1.1L12 21l7.8-7.5 1.1-1.1a5.5 5.5 0 0 0-.1-7.8Z" /></svg>
+        </button>
+      </div>
+      <div id="reflection-editor-panel" hidden={!showReflection}>
+        <JournalEditor date={date} onDirtyChange={setJournalDirty} />
+      </div>
       <div className="meditation-control">
         <button className="footer-link" type="button" aria-expanded={showMeditation} onClick={() => setShowMeditation((visible) => !visible)}>
           <span className="sr-only">{showMeditation ? 'Hide meditation' : 'Play meditation'}</span>

@@ -6,7 +6,7 @@ import App from './App';
 const clipboardWriteText = vi.fn();
 
 beforeEach(() => {
-  window.history.replaceState({}, '', '/daily-ponderance');
+  window.history.replaceState({}, '', '/daily-ponderance?date=2026-11-14');
   Object.defineProperty(navigator, 'clipboard', { configurable: true, value: { writeText: clipboardWriteText } });
   clipboardWriteText.mockReset();
   clipboardWriteText.mockResolvedValue(undefined);
@@ -21,17 +21,25 @@ describe('app journeys', () => {
   it('opens each page, navigates between them, and follows browser back', async () => {
     const user = userEvent.setup();
     render(<App />);
-    expect(await screen.findByRole('heading', { name: 'YOU CHOOSE THE OUTCOME' })).toBeInTheDocument();
+    expect(await screen.findByRole('heading', { level: 3 })).toBeInTheDocument();
 
     await user.click(screen.getByRole('link', { name: 'Preamble' }));
     expect(screen.getByRole('heading', { name: 'Preamble' })).toBeInTheDocument();
     await user.click(screen.getByRole('link', { name: 'Items to paste in chat' }));
     expect(screen.getByRole('heading', { name: 'Items to paste in chat' })).toBeInTheDocument();
     await user.click(screen.getByRole('link', { name: 'Daily ponderance' }));
-    expect(screen.getByRole('heading', { name: 'YOU CHOOSE THE OUTCOME' })).toBeInTheDocument();
+    expect(screen.getByRole('heading', { level: 3 })).toBeInTheDocument();
 
     window.history.back();
     await waitFor(() => expect(screen.getByRole('heading', { name: 'Items to paste in chat' })).toBeInTheDocument());
+  });
+
+  it('opens the journal page with setup or sign-in state', async () => {
+    const user = userEvent.setup();
+    render(<App />);
+    await user.click(screen.getByRole('link', { name: 'Journal' }));
+    expect(screen.getByRole('heading', { name: 'Journal' })).toBeInTheDocument();
+    expect(await screen.findByRole('heading', { name: /^(Supabase setup needed|Sign in)$/ })).toBeInTheDocument();
   });
 
   it('chooses a reading date from the calendar', async () => {

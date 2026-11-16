@@ -93,19 +93,20 @@ flowchart TB
 5. The API derives your account from the session and checks ownership before reading or writing. The browser cannot choose which account's entries it accesses.
 6. The journal view retrieves your entries by date. You can request an export of your entries.
 
-## Implementation steps
+## Implemented first version
 
-1. **Settle the hosted service choice.** Choose authentication and database providers; confirm backup, export, recovery, and deletion capabilities.
-2. **Build the private API and data model.** Start with one editable reflection per account per date and timestamps. Enforce authentication and ownership checks.
-3. **Add the editor to the reading page.** Load the entry when the selected date changes; provide save, loading, and error states; warn before losing unsaved edits.
-4. **Add optional dictation.** Use browser speech recognition when supported and permitted. Keep typing available in every case.
-5. **Add journal retrieval and export.** List dates with entries, open them alongside the corresponding reading, and allow a personal export.
-6. **Verify privacy and access behavior.** Check unauthenticated access, account isolation, date switching, reload and retrieval, dictation fallback, and export.
+- Supabase Auth handles email/password sign-up and sign-in. The browser uses the project URL and publishable/anon key; no service-role key is used in the client.
+- Supabase Postgres stores one reflection per authenticated user per date. Row-level security policies restrict select, insert, update, and delete to `auth.uid()`.
+- The React client uses a `JournalRepository` interface so the storage adapter can be replaced later without coupling the editor to Supabase query details.
+- The daily reading page includes a private reflection editor. `/journal` lists entries and provides JSON export and deletion.
+- The SQL setup is in `supabase/migrations/202611160001_create_journal_entries.sql`; local environment setup is documented in `README.md`.
 
-## Decisions and open items
+Supabase Free currently has no monthly charge within its limits, but free projects may pause after inactivity and do not include automatic backups. Users should export entries periodically if they need an independent copy. AWS migration remains a future option.
+
+## Decisions
 
 - Daily readings remain public and locally bundled.
-- Journal access requires an account and hosted private service, allowing access across devices.
+- Journal access requires a Supabase account and hosted private service, allowing access across devices.
 - The initial model is one editable reflection per date.
 - Voice input transcribes to text; audio recording and storage are out of scope.
-- Provider-specific privacy, recovery, backup, and deletion guarantees must be confirmed during provider selection.
+- Supabase Free project inactivity, backup, and recovery limits apply; plan an upgrade or separate backup approach before treating the journal as the sole copy of important writing.

@@ -5,19 +5,23 @@ import Preamble from './pages/Preamble';
 import MessageTile from './components/MessageTile';
 import { meetingSections } from './data/meetingMessages';
 import { usePacificAlert } from './hooks/usePacificAlert';
+import Journal from './pages/Journal';
+import { JournalAuthProvider } from './contexts/JournalAuthContext';
 
 type Theme = 'light-mode' | 'dark-mode';
-type Page = 'reading' | 'preamble' | 'messages';
+type Page = 'reading' | 'preamble' | 'messages' | 'journal';
 
 const PAGE_PATHS: Record<Page, string> = {
   reading: '/daily-ponderance',
   preamble: '/preamble',
   messages: '/items-to-paste-in-chat',
+  journal: '/journal',
 };
 
 const getPageFromPath = (path: string): Page => {
   if (path === PAGE_PATHS.preamble) return 'preamble';
   if (path === PAGE_PATHS.messages) return 'messages';
+  if (path === PAGE_PATHS.journal) return 'journal';
   return 'reading';
 };
 
@@ -66,7 +70,8 @@ const App: React.FC = () => {
   useEffect(() => {
     document.title = page === 'messages'
       ? 'Items to paste in chat | Daily Ponderance'
-      : page === 'preamble' ? 'Preamble | Daily Ponderance' : 'Daily Ponderance';
+      : page === 'preamble' ? 'Preamble | Daily Ponderance'
+        : page === 'journal' ? 'Journal | Daily Ponderance' : 'Daily Ponderance';
   }, [page]);
 
   useEffect(() => {
@@ -86,7 +91,7 @@ const App: React.FC = () => {
   return (
     <main className="app-shell">
       <div className="page-content">
-        {page === 'reading' ? <DailyReading /> : page === 'preamble' ? <Preamble /> : <MeetingMessages />}
+        {page === 'reading' ? <DailyReading /> : page === 'preamble' ? <Preamble /> : page === 'journal' ? <Journal /> : <MeetingMessages />}
       </div>
       <footer className="site-footer">
         <nav aria-label="Page navigation" className="page-navigation">
@@ -98,6 +103,9 @@ const App: React.FC = () => {
           </a>
           <a className="footer-link" href={PAGE_PATHS.messages} aria-current={page === 'messages' ? 'page' : undefined} onClick={(event) => { event.preventDefault(); navigate('messages'); }}>
             Items to paste in chat
+          </a>
+          <a className="footer-link" href={PAGE_PATHS.journal} aria-current={page === 'journal' ? 'page' : undefined} onClick={(event) => { event.preventDefault(); navigate('journal'); }}>
+            Journal
           </a>
         </nav>
         <button
@@ -142,4 +150,8 @@ const App: React.FC = () => {
   );
 };
 
-export default App;
+const AppWithJournalAuth: React.FC = () => (
+  <JournalAuthProvider><App /></JournalAuthProvider>
+);
+
+export default AppWithJournalAuth;

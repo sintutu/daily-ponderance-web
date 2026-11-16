@@ -60,7 +60,6 @@ const DatePicker: React.FC<DatePickerProps> = ({ defaultDate, onDateChange }) =>
 
   const selectDay = (day: number) => {
     const nextDate = toIsoDate(new Date(month.getFullYear(), month.getMonth(), day));
-    setSelectedDate(nextDate);
     onDateChange(nextDate);
     setVisible(false);
   };

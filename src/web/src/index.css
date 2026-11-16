@@ -261,6 +261,7 @@ button { font-family: inherit; }
 .meditation-control { display: flex; justify-content: center; margin-top: 1.25rem; }
 .meditation-control button { display: inline-grid; place-items: center; width: 48px; height: 48px; padding: 0; }
 .meditation-icon { width: 21px; height: 21px; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+.reflection-icon { width: 21px; height: 21px; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
 .footer-link {
   padding: .55rem .9rem;
   border: 1px solid var(--border);
@@ -277,6 +278,33 @@ button { font-family: inherit; }
 
 .messages-page { width: min(100%, 680px); margin: 0 auto; }
 .preamble-page { width: min(100%, 680px); margin: 0 auto; }
+.journal-page { width: min(100%, 680px); margin: 0 auto; }
+.journal-card, .journal-editor { margin: 1rem 0; padding: 1.25rem; border: 1px solid var(--border); border-radius: 16px; background: var(--surface); box-shadow: 0 2px 8px rgba(23, 25, 35, .04); }
+.journal-card h2, .journal-editor h2 { margin: 0; font-size: 1.15rem; }
+.journal-editor { margin-top: 1.5rem; }
+.journal-editor-heading, .journal-list-heading, .journal-account-row { display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+.journal-editor-heading { margin-bottom: .9rem; }
+.journal-editor-heading .eyebrow { margin-bottom: .15rem; }
+.journal-form { display: grid; gap: .85rem; margin-top: 1rem; }
+.journal-form label { display: grid; gap: .35rem; font-size: .9rem; font-weight: 600; }
+.journal-form input, .journal-editor textarea { width: 100%; padding: .75rem .85rem; border: 1px solid var(--border); border-radius: 10px; background: var(--page-bg); color: var(--text); font: inherit; }
+.journal-editor textarea { display: block; resize: vertical; line-height: 1.6; }
+.journal-primary { padding: .58rem 1rem; border: 0; border-radius: 999px; background: var(--accent); color: var(--page-bg); font: inherit; cursor: pointer; }
+.journal-primary:disabled { cursor: not-allowed; opacity: .5; }
+.journal-text-button { padding: .55rem 0; border: 0; background: transparent; color: var(--text); font: inherit; text-decoration: underline; text-underline-offset: 3px; cursor: pointer; }
+.journal-card > .journal-text-button { margin-top: .75rem; }
+.journal-text-button.danger { color: #b42318; }
+.journal-editor-actions { display: flex; align-items: center; justify-content: space-between; gap: 1rem; margin-top: .75rem; }
+.journal-status, .journal-muted { color: var(--muted); font-size: .88rem; }
+.journal-error { color: #b42318; }
+.journal-success { color: #18794e; }
+.journal-list-heading { margin: 1.4rem 0 .8rem; }
+.journal-account-row p { overflow-wrap: anywhere; }
+.journal-entry-list { display: grid; gap: .75rem; margin: 0; padding: 0; list-style: none; }
+.journal-entry-list li { padding: .9rem; border: 1px solid var(--border); border-radius: 12px; background: var(--soft-surface); }
+.journal-entry-list li > a { font-weight: 650; }
+.journal-entry-list li p { margin: .5rem 0; white-space: pre-wrap; overflow-wrap: anywhere; }
+.journal-card code { overflow-wrap: anywhere; }
 .meditation-card { overflow: hidden; margin-top: 1.25rem; border: 1px solid var(--border); border-radius: 16px; background: var(--surface); box-shadow: 0 2px 8px rgba(23, 25, 35, .04); aspect-ratio: 16 / 9; }
 .meditation-card iframe { display: block; width: 100%; height: 100%; border: 0; }
 .page-eyebrow { margin: .5rem 0 1rem; text-align: center; }
